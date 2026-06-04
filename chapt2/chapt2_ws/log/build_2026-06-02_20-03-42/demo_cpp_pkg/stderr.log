@@ -1,0 +1,15 @@
+[01m[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:25:5:[m[K [01;31m[Kerror: [m[Kcannot declare ‘[01m[K::main[m[K’ to be a global variable
+   25 | int [01;31m[Kmain[m[K(argc,char** argv)
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:25:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+   25 | int main([01;31m[Kargc[m[K,char** argv)
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:25:15:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kchar[m[K’
+   25 | int main(argc,[01;31m[Kchar[m[K** argv)
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:25:26:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   25 | int main(argc,char** argv[01;31m[K)[m[K
+      |                          [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/person_node.dir/build.make:76：CMakeFiles/person_node.dir/src/person_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/person_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

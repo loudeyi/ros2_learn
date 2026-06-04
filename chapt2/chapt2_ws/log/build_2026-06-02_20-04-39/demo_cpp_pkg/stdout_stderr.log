@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[ 50%] Built target cpp_node
+[ 75%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[01m[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:27:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope; did you mean ‘[01m[Kargc[m[K’?
+   27 |     rclcpp::init(argc,[01;31m[Kargv[m[K);
+      |                       [01;31m[K^~~~[m[K
+      |                       [32m[Kargc[m[K
+gmake[2]: *** [CMakeFiles/person_node.dir/build.make:76：CMakeFiles/person_node.dir/src/person_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/person_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

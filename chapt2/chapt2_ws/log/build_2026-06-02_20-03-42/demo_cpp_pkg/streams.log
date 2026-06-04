@@ -1,0 +1,20 @@
+[0.024s] Invoking command in '/home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j4 -l4
+[0.127s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.169s] [ 50%] Built target cpp_node
+[0.178s] [ 75%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[3.963s] [01m[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:25:5:[m[K [01;31m[Kerror: [m[Kcannot declare ‘[01m[K::main[m[K’ to be a global variable
+[3.963s]    25 | int [01;31m[Kmain[m[K(argc,char** argv)
+[3.963s]       |     [01;31m[K^~~~[m[K
+[3.967s] [01m[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:25:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+[3.969s]    25 | int main([01;31m[Kargc[m[K,char** argv)
+[3.969s]       |          [01;31m[K^~~~[m[K
+[3.969s] [01m[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:25:15:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kchar[m[K’
+[3.969s]    25 | int main(argc,[01;31m[Kchar[m[K** argv)
+[3.969s]       |               [01;31m[K^~~~[m[K
+[3.970s] [01m[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:25:26:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.970s]    25 | int main(argc,char** argv[01;31m[K)[m[K
+[3.970s]       |                          [01;31m[K^[m[K
+[4.590s] gmake[2]: *** [CMakeFiles/person_node.dir/build.make:76：CMakeFiles/person_node.dir/src/person_node.cpp.o] 错误 1
+[4.590s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/person_node.dir/all] 错误 2
+[4.592s] gmake: *** [Makefile:146：all] 错误 2
+[4.597s] Invoked command in '/home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble /usr/bin/cmake --build /home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j4 -l4

@@ -1,0 +1,38 @@
+[0.019s] Invoking command in '/home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j4 -l4
+[0.151s] [ 14%] Built target cpp_node
+[0.151s] [ 28%] Built target person_node
+[0.180s] [ 42%] Built target learn_auto
+[0.181s] [ 57%] Built target learn_shared_ptr
+[0.212s] [ 71%] Built target learn_lambda
+[0.212s] [35m[1mConsolidate compiler generated dependencies of target learn_thread[0m
+[0.227s] [ 85%] Built target learn_functional
+[0.247s] [ 92%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[7.275s] [100%] [32m[1mLinking CXX executable learn_thread[0m
+[7.625s] [100%] Built target learn_thread
+[7.645s] Invoked command in '/home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg -- -j4 -l4
+[7.663s] Invoking command in '/home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg
+[7.674s] -- Install configuration: ""
+[7.674s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[7.675s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[7.676s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto
+[7.676s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared_ptr
+[7.677s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda
+[7.678s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_functional
+[7.678s] -- Installing: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_thread
+[7.682s] -- Set runtime path of "/home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_thread" to ""
+[7.683s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[7.683s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[7.683s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[7.683s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[7.683s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[7.683s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[7.683s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[7.685s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[7.685s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[7.685s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[7.686s] -- Installing: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[7.686s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[7.686s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[7.686s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[7.686s] -- Up-to-date: /home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[7.693s] Invoked command in '/home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg

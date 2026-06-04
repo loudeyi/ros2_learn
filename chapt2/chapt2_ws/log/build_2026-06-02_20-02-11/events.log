@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000969] (demo_cpp_pkg) JobQueued: {'identifier': 'demo_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001611] (demo_python_pkg) JobQueued: {'identifier': 'demo_python_pkg', 'dependencies': OrderedDict([('demo_cpp_pkg', '/home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg')])}
+[0.003347] (demo_cpp_pkg) JobStarted: {'identifier': 'demo_cpp_pkg'}
+[0.020194] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'cmake'}
+[0.024511] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'build'}
+[0.024569] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'hzh'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hzh'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.122.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1675'), ('BUNDLED_DEBUGPY_PATH', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=81a81bd63afc367ae1eb30a06a1e6b23'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hzh/chapt2/chapt2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '29670'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hzh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hzh-virtual-machine:@/tmp/.ICE-unix/1675,unix/hzh-virtual-machine:/tmp/.ICE-unix/1675'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6f8c6c04_a532_429f_9634_57b8d60aa052'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-577649fa25a8e260.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/hzh/.config/Code/User/workspaceStorage/86afa54afc9dcc8894a1443ed34748b0/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FN35P3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-26f41e4ff6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.168'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hzh/chapt2/chapt2_ws/install/demo_python_pkg:/home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'b50c0f734fc8e7b4c4ee438902ad76c8'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=81a81bd63afc367ae1eb30a06a1e6b23'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hzh/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg:/home/hzh/chapt2/chapt2_ws/install/demo_python_pkg:/opt/ros/humble')]), 'shell': False}
+[0.064992] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099587] (-) TimerEvent: {}
+[0.200763] (-) TimerEvent: {}
+[0.301566] (-) TimerEvent: {}
+[0.304319] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.343290] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.345388] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.355597] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.372706] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.389384] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.402304] (-) TimerEvent: {}
+[0.430164] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.432066] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.503027] (-) TimerEvent: {}
+[0.584044] (demo_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.603543] (-) TimerEvent: {}
+[0.646302] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.703683] (-) TimerEvent: {}
+[0.748845] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.749091] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.749158] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.750985] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.759892] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.760082] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.761240] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.762393] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.791586] (demo_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.801891] (demo_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/hzh/chapt2/chapt2_ws/build/demo_cpp_pkg\n'}
+[0.804269] (-) TimerEvent: {}
+[0.852828] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_node\x1b[0m\n'}
+[0.884676] (demo_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target cpp_node\n'}
+[0.890982] (demo_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o\x1b[0m\n'}
+[0.904434] (-) TimerEvent: {}
+[1.004973] (-) TimerEvent: {}
+[1.105872] (-) TimerEvent: {}
+[1.206850] (-) TimerEvent: {}
+[1.307674] (-) TimerEvent: {}
+[1.409360] (-) TimerEvent: {}
+[1.510290] (-) TimerEvent: {}
+[1.611349] (-) TimerEvent: {}
+[1.712659] (-) TimerEvent: {}
+[1.813533] (-) TimerEvent: {}
+[1.914663] (-) TimerEvent: {}
+[2.015730] (-) TimerEvent: {}
+[2.116661] (-) TimerEvent: {}
+[2.218405] (-) TimerEvent: {}
+[2.319988] (-) TimerEvent: {}
+[2.421156] (-) TimerEvent: {}
+[2.521980] (-) TimerEvent: {}
+[2.623463] (-) TimerEvent: {}
+[2.724642] (-) TimerEvent: {}
+[2.825360] (-) TimerEvent: {}
+[2.926267] (-) TimerEvent: {}
+[3.027082] (-) TimerEvent: {}
+[3.127907] (-) TimerEvent: {}
+[3.228666] (-) TimerEvent: {}
+[3.329178] (-) TimerEvent: {}
+[3.430280] (-) TimerEvent: {}
+[3.531382] (-) TimerEvent: {}
+[3.631967] (-) TimerEvent: {}
+[3.732873] (-) TimerEvent: {}
+[3.833586] (-) TimerEvent: {}
+[3.934361] (-) TimerEvent: {}
+[4.034967] (-) TimerEvent: {}
+[4.135731] (-) TimerEvent: {}
+[4.236515] (-) TimerEvent: {}
+[4.338949] (-) TimerEvent: {}
+[4.427374] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:25:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot declare \xe2\x80\x98\x1b[01m\x1b[K::main\x1b[m\x1b[K\xe2\x80\x99 to be a global variable\n'}
+[4.427647] (demo_cpp_pkg) StderrLine: {'line': b'   25 | int \x1b[01;31m\x1b[Kmain\x1b[m\x1b[K(argc,char** argv)\n'}
+[4.427728] (demo_cpp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.431872] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:25:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.432923] (demo_cpp_pkg) StderrLine: {'line': b'   25 | int main(\x1b[01;31m\x1b[Kargc\x1b[m\x1b[K,char** argv)\n'}
+[4.433375] (demo_cpp_pkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.433663] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:25:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.433907] (demo_cpp_pkg) StderrLine: {'line': b'   25 | int main(argc,\x1b[01;31m\x1b[Kchar\x1b[m\x1b[K** argv)\n'}
+[4.434117] (demo_cpp_pkg) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.434515] (demo_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:25:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpression list treated as compound expression in initializer [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.434703] (demo_cpp_pkg) StderrLine: {'line': b'   25 | int main(argc,char** argv\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[4.434846] (demo_cpp_pkg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.439326] (-) TimerEvent: {}
+[4.540463] (-) TimerEvent: {}
+[4.642129] (-) TimerEvent: {}
+[4.744505] (-) TimerEvent: {}
+[4.846623] (-) TimerEvent: {}
+[4.947802] (-) TimerEvent: {}
+[5.048848] (-) TimerEvent: {}
+[5.070283] (demo_cpp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/person_node.dir/build.make:76\xef\xbc\x9aCMakeFiles/person_node.dir/src/person_node.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[5.075517] (demo_cpp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/person_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.075955] (demo_cpp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.078197] (demo_cpp_pkg) CommandEnded: {'returncode': 2}
+[5.107439] (demo_cpp_pkg) JobEnded: {'identifier': 'demo_cpp_pkg', 'rc': 2}
+[5.119247] (demo_python_pkg) JobSkipped: {'identifier': 'demo_python_pkg'}
+[5.119387] (-) EventReactorShutdown: {}

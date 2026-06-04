@@ -1,0 +1,6 @@
+Invoking command in '/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib': /usr/bin/cmake /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/cpp-httplib -DCMAKE_INSTALL_PREFIX=/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/install/httplib
+Invoked command in '/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib' returned '0': /usr/bin/cmake /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/cpp-httplib -DCMAKE_INSTALL_PREFIX=/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/install/httplib
+Invoking command in '/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib': /usr/bin/cmake --build /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib -- -j4 -l4
+Invoked command in '/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib' returned '0': /usr/bin/cmake --build /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib -- -j4 -l4
+Invoking command in '/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib': /usr/bin/cmake --install /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib
+Invoked command in '/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib' returned '0': /usr/bin/cmake --install /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib

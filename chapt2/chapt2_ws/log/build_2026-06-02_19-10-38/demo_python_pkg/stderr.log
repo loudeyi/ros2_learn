@@ -1,0 +1,5 @@
+  File "/home/hzh/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg/writer_node.py", line 1
+    fron demo_python_pkg.person_node import PersonNode
+         ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+

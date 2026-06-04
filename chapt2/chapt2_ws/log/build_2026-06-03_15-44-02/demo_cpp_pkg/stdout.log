@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target learn_shared_ptr[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/learn_shared_ptr.dir/src/learn_shared_ptr.cpp.o[0m
+[ 37%] Built target person_node
+[ 62%] Built target learn_auto
+[ 87%] Built target cpp_node

@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib': /usr/bin/cmake /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/cpp-httplib -DCMAKE_INSTALL_PREFIX=/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/install/httplib
+[0.192s] -- The CXX compiler identification is GNU 11.4.0
+[0.220s] -- Detecting CXX compiler ABI info
+[0.392s] -- Detecting CXX compiler ABI info - done
+[0.396s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.400s] -- Detecting CXX compile features
+[0.403s] -- Detecting CXX compile features - done
+[0.407s] -- Looking for C++ include pthread.h
+[0.571s] -- Looking for C++ include pthread.h - found
+[0.571s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.726s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.727s] -- Found Threads: TRUE  
+[1.208s] -- Configuring done
+[1.209s] -- Generating done
+[1.213s] -- Build files have been written to: /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib
+[1.224s] Invoked command in '/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib' returned '0': /usr/bin/cmake /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/cpp-httplib -DCMAKE_INSTALL_PREFIX=/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/install/httplib
+[1.224s] Invoking command in '/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib': /usr/bin/cmake --build /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib -- -j4 -l4
+[1.303s] Invoked command in '/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib' returned '0': /usr/bin/cmake --build /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib -- -j4 -l4
+[1.326s] Invoking command in '/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib': /usr/bin/cmake --install /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib
+[1.343s] -- Install configuration: ""
+[1.344s] -- Installing: /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/install/httplib/include/httplib.h
+[1.346s] -- Installing: /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/install/httplib/lib/cmake/httplib/httplibConfig.cmake
+[1.347s] -- Installing: /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/install/httplib/lib/cmake/httplib/httplibConfigVersion.cmake
+[1.347s] -- Installing: /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/install/httplib/lib/cmake/httplib/FindBrotli.cmake
+[1.347s] -- Installing: /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/install/httplib/lib/cmake/httplib/httplibTargets.cmake
+[1.354s] Invoked command in '/home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib' returned '0': /usr/bin/cmake --install /home/hzh/chapt2/chapt2_ws/src/demo_cpp_pkg/include/build/httplib

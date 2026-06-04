@@ -1,0 +1,25 @@
+[0.821s] Invoking command in '/home/hzh/chapt2/chapt2_ws/src/demo_python_pkg': AMENT_PREFIX_PATH=/home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg PYTHONPATH=/home/hzh/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/hzh/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/hzh/chapt2/chapt2_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[1.103s] running egg_info
+[1.105s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[1.106s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[1.106s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[1.106s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[1.107s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[1.112s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[1.113s] adding license file 'LICENSE'
+[1.113s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[1.113s] running build
+[1.114s] running build_py
+[1.117s] running install
+[1.118s] running install_lib
+[1.118s] running install_data
+[1.118s] running install_egg_info
+[1.122s] removing '/home/hzh/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.124s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/hzh/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages/demo_python_pkg-0.0.0-py3.10.egg-info
+[1.124s] running install_scripts
+[1.158s] Installing learn_thread script to /home/hzh/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[1.158s] Installing person_node script to /home/hzh/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[1.159s] Installing python_node script to /home/hzh/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[1.159s] Installing writer_node script to /home/hzh/chapt2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[1.159s] writing list of installed files to '/home/hzh/chapt2/chapt2_ws/build/demo_python_pkg/install.log'
+[1.207s] Invoked command in '/home/hzh/chapt2/chapt2_ws/src/demo_python_pkg' returned '0': AMENT_PREFIX_PATH=/home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzh/chapt2/chapt2_ws/install/demo_cpp_pkg PYTHONPATH=/home/hzh/chapt2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/chapt2/chapt2_ws/install/demo_python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/hzh/chapt2/chapt2_ws/build/demo_python_pkg/build install --record /home/hzh/chapt2/chapt2_ws/build/demo_python_pkg/install.log --single-version-externally-managed install_data
