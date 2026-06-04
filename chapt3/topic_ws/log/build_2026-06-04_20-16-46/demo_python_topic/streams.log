@@ -1,0 +1,38 @@
+[0.829s] Invoking command in '/home/hzh/ros2_learn/chapt3/topic_ws/src/demo_python_topic': PYTHONPATH=/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/build install --record /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[1.114s] running egg_info
+[1.115s] creating ../../build/demo_python_topic/demo_python_topic.egg-info
+[1.116s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[1.116s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[1.116s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[1.116s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[1.116s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[1.116s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[1.119s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[1.119s] adding license file 'LICENSE'
+[1.121s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[1.121s] running build
+[1.121s] running build_py
+[1.121s] creating /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/build
+[1.121s] creating /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/build/lib
+[1.122s] creating /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[1.122s] copying demo_python_topic/novel_pub_node.py -> /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[1.122s] copying demo_python_topic/__init__.py -> /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[1.123s] running install
+[1.123s] running install_lib
+[1.123s] creating /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[1.123s] copying /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/novel_pub_node.py -> /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[1.124s] copying /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/__init__.py -> /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[1.125s] byte-compiling /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_pub_node.py to novel_pub_node.cpython-310.pyc
+[1.126s] byte-compiling /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/__init__.py to __init__.cpython-310.pyc
+[1.127s] running install_data
+[1.127s] creating /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/share/ament_index
+[1.127s] creating /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index
+[1.128s] creating /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[1.128s] copying resource/demo_python_topic -> /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/share/ament_index/resource_index/packages
+[1.128s] copying package.xml -> /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/share/demo_python_topic
+[1.128s] running install_egg_info
+[1.132s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[1.135s] running install_scripts
+[1.167s] Installing novel_pub_node script to /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[1.168s] writing list of installed files to '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/install.log'
+[1.213s] Invoked command in '/home/hzh/ros2_learn/chapt3/topic_ws/src/demo_python_topic' returned '0': PYTHONPATH=/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/build install --record /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data

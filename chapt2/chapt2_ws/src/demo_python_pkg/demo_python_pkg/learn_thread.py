@@ -2,7 +2,7 @@ import threading
 import requests
 
 class Donwload:
-    def donload(self, url, callback_word_count):
+    def download(self, url, callback_word_count):
         print(f'线程:{threading.get_ident()} 开始下载:{url}')
         # 模拟下载过程
         response = requests.get(url)
