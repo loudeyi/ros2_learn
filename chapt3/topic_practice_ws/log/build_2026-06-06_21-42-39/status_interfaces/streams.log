@@ -1,0 +1,228 @@
+[0.031s] Invoking command in '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces
+[0.059s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.295s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.325s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.326s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.333s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.374s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.810s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.330s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.530s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.534s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.578s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.578s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.578s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.578s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.608s] -- Found PythonExtra: .so  
+[1.755s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.796s] -- Added test 'lint_cmake' to check CMake code style
+[1.798s] -- Added test 'xmllint' to check XML markup files
+[1.803s] -- Configuring done
+[1.872s] -- Generating done
+[1.890s] -- Build files have been written to: /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces
+[1.901s] Invoked command in '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces
+[1.905s] Invoking command in '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces -- -j4 -l4
+[1.985s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.002s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.007s] [  9%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.033s] [  9%] Built target ament_cmake_python_copy_status_interfaces
+[2.711s] running egg_info
+[2.714s] creating status_interfaces.egg-info
+[2.714s] writing status_interfaces.egg-info/PKG-INFO
+[2.717s] writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+[2.718s] writing top-level names to status_interfaces.egg-info/top_level.txt
+[2.718s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[2.726s] reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[2.733s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[2.842s] [  9%] Built target status_interfaces__rs
+[2.882s] [  9%] Built target ament_cmake_python_build_status_interfaces_egg
+[2.917s] [ 12%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o[0m
+[2.960s] [ 12%] Built target status_interfaces__cpp
+[2.995s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.003s] [ 21%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.004s] [ 21%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.198s] [ 25%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so[0m
+[3.359s] [ 25%] Built target status_interfaces__rosidl_generator_c
+[3.408s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.768s] [ 31%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[3.848s] [ 34%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[3.860s] [ 37%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[4.077s] [ 40%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o[0m
+[4.302s] [ 43%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so[0m
+[4.379s] [ 43%] Built target status_interfaces__rosidl_typesupport_cpp
+[4.398s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.545s] [ 50%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.609s] [ 53%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.647s] [ 56%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.671s] [ 56%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[4.698s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.785s] [ 59%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[4.797s] [ 59%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.857s] [ 62%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o[0m
+[4.918s] [ 65%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.974s] [ 65%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[5.082s] [ 68%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[5.133s] [ 71%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so[0m
+[5.201s] [ 71%] Built target status_interfaces__rosidl_typesupport_c
+[5.241s] [ 71%] Built target status_interfaces
+[5.277s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.801s] [ 75%] Built target status_interfaces__py
+[5.840s] [ 78%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o[0m
+[6.043s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/libstatus_interfaces__rosidl_generator_py.so[0m
+[6.108s] [ 81%] Built target status_interfaces__rosidl_generator_py
+[6.148s] [ 84%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.149s] [ 87%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.151s] [ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.287s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.288s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.290s] [100%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.351s] [100%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.362s] [100%] Built target status_interfaces__rosidl_typesupport_c__pyext
+[6.364s] [100%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.385s] Invoked command in '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces -- -j4 -l4
+[6.402s] Invoking command in '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces
+[6.413s] -- Install configuration: ""
+[6.414s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+[6.414s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[6.414s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[6.415s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.415s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h
+[6.415s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[6.415s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h
+[6.416s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h
+[6.416s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c
+[6.416s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h
+[6.416s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+[6.417s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+[6.417s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+[6.418s] -- Set runtime path of "/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""
+[6.419s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[6.419s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[6.419s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.419s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[6.420s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[6.420s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.420s] -- Set runtime path of "/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.420s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[6.420s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[6.420s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[6.421s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp
+[6.421s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp
+[6.421s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp
+[6.421s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp
+[6.422s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.422s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp
+[6.422s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[6.423s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[6.423s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.424s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[6.424s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps
+[6.426s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[6.426s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.427s] -- Set runtime path of "/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.427s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[6.427s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[6.427s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.428s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[6.428s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c
+[6.429s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[6.429s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+[6.429s] -- Set runtime path of "/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.429s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+[6.429s] -- Set runtime path of "/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""
+[6.430s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[6.431s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[6.431s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[6.431s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp
+[6.432s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[6.432s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.432s] -- Set runtime path of "/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.432s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+[6.432s] -- Set runtime path of "/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.432s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+[6.432s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+[6.432s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info
+[6.433s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.433s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.433s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[6.433s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[6.433s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces
+[6.434s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.434s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.434s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.435s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py
+[6.435s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so
+[6.436s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c
+[6.436s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.436s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg
+[6.437s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py
+[6.437s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c
+[6.437s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py
+[6.437s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.482s] Listing '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...
+[6.482s] Compiling '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py'...
+[6.482s] Listing '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...
+[6.483s] Compiling '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py'...
+[6.483s] Compiling '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py'...
+[6.490s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.490s] -- Set runtime path of "/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.491s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.491s] -- Set runtime path of "/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.491s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.492s] -- Set runtime path of "/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.492s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so
+[6.492s] -- Set runtime path of "/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""
+[6.493s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rust_packages/status_interfaces
+[6.493s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust
+[6.494s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/Cargo.toml
+[6.494s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/build.rs
+[6.494s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src
+[6.494s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/lib.rs
+[6.495s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg.rs
+[6.495s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg
+[6.495s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg/rmw.rs
+[6.495s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl
+[6.496s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg
+[6.496s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+[6.496s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+[6.496s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+[6.496s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+[6.496s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.sh
+[6.497s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv
+[6.497s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.bash
+[6.498s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.sh
+[6.498s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh
+[6.498s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv
+[6.498s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.dsv
+[6.498s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+[6.499s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake
+[6.499s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.500s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.502s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.503s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake
+[6.503s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.503s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.504s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.505s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.505s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+[6.505s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.505s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.507s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.507s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+[6.507s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.508s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake
+[6.508s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.508s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.509s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.509s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.509s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.510s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.510s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.510s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.510s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+[6.510s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+[6.510s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.xml
+[6.516s] Invoked command in '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces

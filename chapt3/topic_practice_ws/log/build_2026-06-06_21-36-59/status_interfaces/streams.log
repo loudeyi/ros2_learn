@@ -1,0 +1,50 @@
+[0.024s] Invoking command in '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces': /usr/bin/cmake /home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces
+[0.039s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.234s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.262s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.264s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.272s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.288s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.316s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.565s] Error parsing '/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_interfaces/package.xml':
+[0.658s] Traceback (most recent call last):
+[0.658s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[0.661s]     root = dom.parseString(data)
+[0.661s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 1995, in parseString
+[0.664s]     return expatbuilder.parseString(string)
+[0.665s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[0.666s]     return builder.parseString(string)
+[0.666s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[0.666s]     parser.Parse(string, True)
+[0.666s] xml.parsers.expat.ExpatError: mismatched tag: line 22, column 2
+[0.666s] 
+[0.666s] During handling of the above exception, another exception occurred:
+[0.666s] 
+[0.667s] Traceback (most recent call last):
+[0.667s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.667s]     main()
+[0.667s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.667s]     raise e
+[0.667s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.667s]     package = parse_package_string(
+[0.667s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[0.668s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[0.668s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_interfaces/package.xml':
+[0.668s] The manifest contains invalid XML:
+[0.668s] mismatched tag: line 22, column 2
+[0.705s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.705s]   execute_process(/usr/bin/python3
+[0.705s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.705s]   /home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_interfaces/package.xml
+[0.705s]   /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces/ament_cmake_core/package.cmake)
+[0.705s]   returned error code 1
+[0.705s] Call Stack (most recent call first):
+[0.705s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.705s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.705s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.705s] 
+[0.705s] [0m
+[0.706s] -- Configuring incomplete, errors occurred!
+[0.706s] See also "/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces/CMakeFiles/CMakeOutput.log".
+[0.720s] Invoked command in '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces' returned '1': /usr/bin/cmake /home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces
