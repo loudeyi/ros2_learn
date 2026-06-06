@@ -1,0 +1,15 @@
+[0.034s] Invoking command in '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic -- -j4 -l4
+[0.171s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[0.173s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.192s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[0.202s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[0.227s] [01m[K/home/hzh/ros2_learn/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+[0.227s]     1 | [01;31m[Kc[m[K
+[0.227s]       | [01;31m[K^[m[K
+[0.232s] gmake[2]: *** [CMakeFiles/turtle_circle.dir/build.make:76：CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o] 错误 1
+[0.235s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/turtle_circle.dir/all] 错误 2
+[0.236s] gmake[1]: *** 正在等待未完成的任务....
+[12.489s] [ 75%] [32m[1mLinking CXX executable turtle_control[0m
+[13.231s] [ 75%] Built target turtle_control
+[13.232s] gmake: *** [Makefile:146：all] 错误 2
+[13.237s] Invoked command in '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic -- -j4 -l4

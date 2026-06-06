@@ -1,0 +1,8 @@
+[01m[K/home/hzh/ros2_learn/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/pose.hpp: 没有那个文件或目录
+    4 | #include [01;31m[K"turtlesim/msg/pose.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turtle_circle.dir/build.make:76：CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/turtle_circle.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

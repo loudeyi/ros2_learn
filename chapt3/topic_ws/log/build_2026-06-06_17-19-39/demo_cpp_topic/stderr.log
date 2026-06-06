@@ -1,0 +1,12 @@
+[31mCMake Error at CMakeLists.txt:31 (install):
+  Syntax error in cmake code at
+
+    /home/hzh/ros2_learn/chapt3/topic_ws/src/demo_cpp_topic/CMakeLists.txt:32
+
+  when parsing string
+
+    lib/${PROJECT_NAME
+
+  There is an unterminated variable reference.
+
+[0m

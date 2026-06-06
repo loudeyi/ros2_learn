@@ -1,0 +1,19 @@
+[0.034s] Invoking command in '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic -- -j4 -l4
+[0.132s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[0.170s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[4.769s] [01m[K/home/hzh/ros2_learn/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:15:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+[4.769s]    15 |     [01;31m[K{[m[K
+[4.770s]       |     [01;31m[K^[m[K
+[4.771s] [01m[K/home/hzh/ros2_learn/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:[m[K In constructor ‘[01m[KTurtleCircleNode::TurtleCircleNode(const string&)[m[K’:
+[4.771s] [01m[K/home/hzh/ros2_learn/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:14:76:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ at end of input
+[4.772s]    14 |     explicit TurtleCircleNode(const std::string& node_name):Node(node_name)[01;31m[K;[m[K
+[4.772s]       |                                                                            [01;31m[K^[m[K
+[4.779s] [01m[K/home/hzh/ros2_learn/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:[m[K In member function ‘[01m[Kvoid TurtleCircleNode::timer_callback()[m[K’:
+[4.781s] [01m[K/home/hzh/ros2_learn/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublic_[m[K’?
+[4.781s]    26 |         [01;31m[Kpublisher_[m[K->publish(msg);
+[4.781s]       |         [01;31m[K^~~~~~~~~~[m[K
+[4.781s]       |         [32m[Kpublic_[m[K
+[5.665s] gmake[2]: *** [CMakeFiles/turtle_circle.dir/build.make:76：CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o] 错误 1
+[5.668s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/turtle_circle.dir/all] 错误 2
+[5.668s] gmake: *** [Makefile:146：all] 错误 2
+[5.672s] Invoked command in '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic -- -j4 -l4

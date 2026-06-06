@@ -1,0 +1,26 @@
+[0.039s] Invoking command in '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic -- -j4 -l4
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[0.210s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[8.029s] [100%] [32m[1mLinking CXX executable turtle_circle[0m
+[8.447s] [100%] Built target turtle_circle
+[8.472s] Invoked command in '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic -- -j4 -l4
+[8.492s] Invoking command in '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic
+[8.502s] -- Install configuration: ""
+[8.502s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[8.504s] -- Set runtime path of "/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""
+[8.504s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[8.505s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[8.505s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[8.506s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[8.506s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[8.506s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[8.507s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[8.508s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[8.508s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[8.509s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[8.509s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[8.509s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[8.509s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[8.510s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[8.510s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[8.513s] Invoked command in '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic

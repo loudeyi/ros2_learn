@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[01m[K/home/hzh/ros2_learn/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kc[m[K’ does not name a type
+    1 | [01;31m[Kc[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/turtle_circle.dir/build.make:76：CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/turtle_circle.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[ 75%] [32m[1mLinking CXX executable turtle_control[0m
+[ 75%] Built target turtle_control
+gmake: *** [Makefile:146：all] 错误 2

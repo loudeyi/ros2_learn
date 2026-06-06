@@ -1,0 +1,52 @@
+[0.039s] Invoking command in '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic -- -j4 -l4
+[0.086s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.362s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.405s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.410s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.421s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.456s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.507s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.507s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.678s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.746s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.762s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.813s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.938s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.938s] -- Configured cppcheck include dirs: 
+[0.938s] -- Configured cppcheck exclude dirs and/or files: 
+[0.939s] -- Added test 'lint_cmake' to check CMake code style
+[0.948s] -- Added test 'uncrustify' to check C / C++ code style
+[0.952s] -- Configured uncrustify additional arguments: 
+[0.952s] -- Added test 'xmllint' to check XML markup files
+[0.953s] -- Configuring done
+[0.991s] -- Generating done
+[1.006s] -- Build files have been written to: /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic
+[1.124s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[1.138s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[1.207s] [ 50%] Built target turtle_circle
+[1.249s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[15.273s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[16.000s] [100%] Built target turtle_control
+[16.023s] Invoked command in '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic -- -j4 -l4
+[16.043s] Invoking command in '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic
+[16.058s] -- Install configuration: ""
+[16.058s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[16.058s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control
+[16.068s] -- Set runtime path of "/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""
+[16.069s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[16.069s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[16.069s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[16.070s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[16.070s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[16.070s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[16.070s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[16.071s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[16.071s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[16.071s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[16.071s] -- Installing: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[16.071s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[16.071s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[16.071s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[16.072s] -- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[16.076s] Invoked command in '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic

@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.000556] (demo_cpp_topic) JobQueued: {'identifier': 'demo_cpp_topic', 'dependencies': OrderedDict()}
+[0.001158] (demo_python_topic) JobQueued: {'identifier': 'demo_python_topic', 'dependencies': OrderedDict()}
+[0.001253] (demo_cpp_topic) JobStarted: {'identifier': 'demo_cpp_topic'}
+[0.013305] (demo_python_topic) JobStarted: {'identifier': 'demo_python_topic'}
+[0.030981] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'cmake'}
+[0.031138] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'build'}
+[0.031204] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic', '--', '-j4', '-l4'], 'cwd': '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'hzh'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hzh'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/hzh/ros2_learn/chapt3/topic_ws/src'), ('TERM_PROGRAM_VERSION', '1.123.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1665'), ('BUNDLED_DEBUGPY_PATH', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a60d4548beb1ddf150787b2a6a23df99'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '22114'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hzh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hzh-virtual-machine:@/tmp/.ICE-unix/1665,unix/hzh-virtual-machine:/tmp/.ICE-unix/1665'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e834b3aa_e1b0_4daf_8df1_a923dddc9c0e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d1d77ed25fe957f2.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/hzh/.config/Code/User/workspaceStorage/4f2d1ac3b864d44ba08b1940c650825a/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.C37MQ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6230cae81f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_cpp_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '6bbd7d6e8df2688eb8285deb1d739a65'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a60d4548beb1ddf150787b2a6a23df99'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100444] (-) TimerEvent: {}
+[0.172283] (demo_cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_circle\x1b[0m\n'}
+[0.174431] (demo_cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_control\x1b[0m\n'}
+[0.193071] (demo_cpp_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o\x1b[0m\n'}
+[0.201123] (-) TimerEvent: {}
+[0.202995] (demo_cpp_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o\x1b[0m\n'}
+[0.228180] (demo_cpp_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:1:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kc\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.228449] (demo_cpp_topic) StderrLine: {'line': b'    1 | \x1b[01;31m\x1b[Kc\x1b[m\x1b[K\n'}
+[0.228514] (demo_cpp_topic) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.232985] (demo_cpp_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtle_circle.dir/build.make:76\xef\xbc\x9aCMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.236558] (demo_cpp_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/turtle_circle.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.236828] (demo_cpp_topic) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[0.303052] (-) TimerEvent: {}
+[0.405399] (-) TimerEvent: {}
+[0.507163] (-) TimerEvent: {}
+[0.609150] (-) TimerEvent: {}
+[0.709755] (-) TimerEvent: {}
+[0.813352] (-) TimerEvent: {}
+[0.914142] (-) TimerEvent: {}
+[1.015712] (-) TimerEvent: {}
+[1.082854] (demo_python_topic) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_python_topic', 'build', '--build-base', '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/build', 'install', '--record', '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hzh/ros2_learn/chapt3/topic_ws/src/demo_python_topic', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'hzh', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hzh', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/hzh/ros2_learn/chapt3/topic_ws/src', 'TERM_PROGRAM_VERSION': '1.123.0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1665', 'BUNDLED_DEBUGPY_PATH': '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a60d4548beb1ddf150787b2a6a23df99', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'hzh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '22114', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hzh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/hzh-virtual-machine:@/tmp/.ICE-unix/1665,unix/hzh-virtual-machine:/tmp/.ICE-unix/1665', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e834b3aa_e1b0_4daf_8df1_a923dddc9c0e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d1d77ed25fe957f2.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/hzh/.config/Code/User/workspaceStorage/4f2d1ac3b864d44ba08b1940c650825a/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.C37MQ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6230cae81f.sock', 'GNOME_TERMINAL_SERVICE': ':1.104', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': '6bbd7d6e8df2688eb8285deb1d739a65', 'CLUTTER_IM_MODULE': 'xim', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a60d4548beb1ddf150787b2a6a23df99', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.116670] (-) TimerEvent: {}
+[1.219890] (-) TimerEvent: {}
+[1.325643] (-) TimerEvent: {}
+[1.426874] (-) TimerEvent: {}
+[1.451529] (demo_python_topic) StdoutLine: {'line': b'running egg_info\n'}
+[1.451820] (demo_python_topic) StdoutLine: {'line': b'writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO\n'}
+[1.451939] (demo_python_topic) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt\n'}
+[1.452235] (demo_python_topic) StdoutLine: {'line': b'writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt\n'}
+[1.452645] (demo_python_topic) StdoutLine: {'line': b'writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt\n'}
+[1.453230] (demo_python_topic) StdoutLine: {'line': b'writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt\n'}
+[1.458576] (demo_python_topic) StdoutLine: {'line': b"reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[1.458969] (demo_python_topic) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.459954] (demo_python_topic) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'\n"}
+[1.460646] (demo_python_topic) StdoutLine: {'line': b'running build\n'}
+[1.460831] (demo_python_topic) StdoutLine: {'line': b'running build_py\n'}
+[1.461342] (demo_python_topic) StdoutLine: {'line': b'running install\n'}
+[1.461683] (demo_python_topic) StdoutLine: {'line': b'running install_lib\n'}
+[1.463530] (demo_python_topic) StdoutLine: {'line': b'running install_data\n'}
+[1.463903] (demo_python_topic) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.465926] (demo_python_topic) StdoutLine: {'line': b"removing '/home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.467835] (demo_python_topic) StdoutLine: {'line': b'Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info\n'}
+[1.468307] (demo_python_topic) StdoutLine: {'line': b'running install_scripts\n'}
+[1.501986] (demo_python_topic) StdoutLine: {'line': b'Installing novel_pub_node script to /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic\n'}
+[1.503201] (demo_python_topic) StdoutLine: {'line': b'Installing novel_sub_node script to /home/hzh/ros2_learn/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic\n'}
+[1.503663] (demo_python_topic) StdoutLine: {'line': b"writing list of installed files to '/home/hzh/ros2_learn/chapt3/topic_ws/build/demo_python_topic/install.log'\n"}
+[1.527572] (-) TimerEvent: {}
+[1.565629] (demo_python_topic) CommandEnded: {'returncode': 0}
+[1.598487] (demo_python_topic) JobEnded: {'identifier': 'demo_python_topic', 'rc': 0}
+[1.628556] (-) TimerEvent: {}
+[1.729372] (-) TimerEvent: {}
+[1.831271] (-) TimerEvent: {}
+[1.932612] (-) TimerEvent: {}
+[2.034487] (-) TimerEvent: {}
+[2.137568] (-) TimerEvent: {}
+[2.238981] (-) TimerEvent: {}
+[2.339959] (-) TimerEvent: {}
+[2.440968] (-) TimerEvent: {}
+[2.541544] (-) TimerEvent: {}
+[2.642316] (-) TimerEvent: {}
+[2.742948] (-) TimerEvent: {}
+[2.843676] (-) TimerEvent: {}
+[2.944359] (-) TimerEvent: {}
+[3.045580] (-) TimerEvent: {}
+[3.146992] (-) TimerEvent: {}
+[3.248433] (-) TimerEvent: {}
+[3.349483] (-) TimerEvent: {}
+[3.451042] (-) TimerEvent: {}
+[3.552288] (-) TimerEvent: {}
+[3.653560] (-) TimerEvent: {}
+[3.755376] (-) TimerEvent: {}
+[3.856107] (-) TimerEvent: {}
+[3.957309] (-) TimerEvent: {}
+[4.058294] (-) TimerEvent: {}
+[4.159926] (-) TimerEvent: {}
+[4.260466] (-) TimerEvent: {}
+[4.361614] (-) TimerEvent: {}
+[4.462770] (-) TimerEvent: {}
+[4.563817] (-) TimerEvent: {}
+[4.664895] (-) TimerEvent: {}
+[4.765412] (-) TimerEvent: {}
+[4.866568] (-) TimerEvent: {}
+[4.967252] (-) TimerEvent: {}
+[5.068201] (-) TimerEvent: {}
+[5.169427] (-) TimerEvent: {}
+[5.270417] (-) TimerEvent: {}
+[5.371789] (-) TimerEvent: {}
+[5.473433] (-) TimerEvent: {}
+[5.574522] (-) TimerEvent: {}
+[5.675821] (-) TimerEvent: {}
+[5.776764] (-) TimerEvent: {}
+[5.877734] (-) TimerEvent: {}
+[5.978274] (-) TimerEvent: {}
+[6.079540] (-) TimerEvent: {}
+[6.181232] (-) TimerEvent: {}
+[6.282461] (-) TimerEvent: {}
+[6.384048] (-) TimerEvent: {}
+[6.485296] (-) TimerEvent: {}
+[6.586148] (-) TimerEvent: {}
+[6.687226] (-) TimerEvent: {}
+[6.788383] (-) TimerEvent: {}
+[6.889604] (-) TimerEvent: {}
+[6.991047] (-) TimerEvent: {}
+[7.092092] (-) TimerEvent: {}
+[7.193610] (-) TimerEvent: {}
+[7.295338] (-) TimerEvent: {}
+[7.396439] (-) TimerEvent: {}
+[7.498132] (-) TimerEvent: {}
+[7.599673] (-) TimerEvent: {}
+[7.700431] (-) TimerEvent: {}
+[7.801541] (-) TimerEvent: {}
+[7.902347] (-) TimerEvent: {}
+[8.003356] (-) TimerEvent: {}
+[8.104122] (-) TimerEvent: {}
+[8.204895] (-) TimerEvent: {}
+[8.305901] (-) TimerEvent: {}
+[8.406470] (-) TimerEvent: {}
+[8.507260] (-) TimerEvent: {}
+[8.608118] (-) TimerEvent: {}
+[8.708912] (-) TimerEvent: {}
+[8.809444] (-) TimerEvent: {}
+[8.910280] (-) TimerEvent: {}
+[9.010748] (-) TimerEvent: {}
+[9.111480] (-) TimerEvent: {}
+[9.212332] (-) TimerEvent: {}
+[9.312983] (-) TimerEvent: {}
+[9.414124] (-) TimerEvent: {}
+[9.515127] (-) TimerEvent: {}
+[9.616141] (-) TimerEvent: {}
+[9.717652] (-) TimerEvent: {}
+[9.818527] (-) TimerEvent: {}
+[9.919920] (-) TimerEvent: {}
+[10.021153] (-) TimerEvent: {}
+[10.121880] (-) TimerEvent: {}
+[10.222962] (-) TimerEvent: {}
+[10.324247] (-) TimerEvent: {}
+[10.425132] (-) TimerEvent: {}
+[10.526760] (-) TimerEvent: {}
+[10.627566] (-) TimerEvent: {}
+[10.728370] (-) TimerEvent: {}
+[10.829155] (-) TimerEvent: {}
+[10.930280] (-) TimerEvent: {}
+[11.032042] (-) TimerEvent: {}
+[11.132773] (-) TimerEvent: {}
+[11.233522] (-) TimerEvent: {}
+[11.334643] (-) TimerEvent: {}
+[11.436316] (-) TimerEvent: {}
+[11.537310] (-) TimerEvent: {}
+[11.638629] (-) TimerEvent: {}
+[11.740159] (-) TimerEvent: {}
+[11.841313] (-) TimerEvent: {}
+[11.942350] (-) TimerEvent: {}
+[12.044325] (-) TimerEvent: {}
+[12.145391] (-) TimerEvent: {}
+[12.245945] (-) TimerEvent: {}
+[12.346646] (-) TimerEvent: {}
+[12.447484] (-) TimerEvent: {}
+[12.490209] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable turtle_control\x1b[0m\n'}
+[12.548057] (-) TimerEvent: {}
+[12.648913] (-) TimerEvent: {}
+[12.750313] (-) TimerEvent: {}
+[12.851606] (-) TimerEvent: {}
+[12.952733] (-) TimerEvent: {}
+[13.054416] (-) TimerEvent: {}
+[13.155476] (-) TimerEvent: {}
+[13.232277] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] Built target turtle_control\n'}
+[13.233295] (demo_cpp_topic) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[13.237488] (demo_cpp_topic) CommandEnded: {'returncode': 2}
+[13.250800] (demo_cpp_topic) JobEnded: {'identifier': 'demo_cpp_topic', 'rc': 2}
+[13.256103] (-) TimerEvent: {}
+[13.262985] (-) EventReactorShutdown: {}
