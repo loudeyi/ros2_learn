@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chapt4_interfaces/srv/Partol.srv
+// generated code does not contain a copyright notice
+
+
+module chapt4_interfaces {
+  module srv {
+    struct Partol_Request {
+      float target_x;
+
+      float target_y;
+    };
+    module Partol_Response_Constants {
+      const int8 SUCCESS = 1;
+      const int8 FAIL = 0;
+    };
+    struct Partol_Response {
+      @verbatim (language="comment", text=
+        "结果,SUCCESS / FAIL 取其一")
+      int8 result;
+    };
+  };
+};

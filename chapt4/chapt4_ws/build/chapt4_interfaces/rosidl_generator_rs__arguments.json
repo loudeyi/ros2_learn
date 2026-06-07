@@ -3,10 +3,12 @@
   "output_dir": "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_rs/chapt4_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource",
   "idl_tuples": [
-    "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces:srv/FaceDetector.idl"
+    "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces:srv/FaceDetector.idl",
+    "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces:srv/Partol.idl"
   ],
   "ros_interface_files": [
-    "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/FaceDetector.idl"
+    "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/FaceDetector.idl",
+    "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/Partol.idl"
   ],
   "ros_interface_dependencies": [
     "sensor_msgs:/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
@@ -116,7 +118,9 @@
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_idiomatic.rs.em",
     "/opt/ros/humble/share/rosidl_generator_rs/cmake/../resource/templates/srv_rmw.rs.em",
     "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/FaceDetector.idl",
+    "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/Partol.idl",
     "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/FaceDetector.idl",
+    "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces/srv/Partol.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl",
     "/opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl",

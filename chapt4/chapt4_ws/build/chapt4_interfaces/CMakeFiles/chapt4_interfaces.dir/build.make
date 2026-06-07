@@ -69,6 +69,9 @@ include CMakeFiles/chapt4_interfaces.dir/progress.make
 CMakeFiles/chapt4_interfaces: /home/hzh/ros2_learn/chapt4/chapt4_ws/src/chapt4_interfaces/srv/FaceDetector.srv
 CMakeFiles/chapt4_interfaces: rosidl_cmake/srv/FaceDetector_Request.msg
 CMakeFiles/chapt4_interfaces: rosidl_cmake/srv/FaceDetector_Response.msg
+CMakeFiles/chapt4_interfaces: /home/hzh/ros2_learn/chapt4/chapt4_ws/src/chapt4_interfaces/srv/Partol.srv
+CMakeFiles/chapt4_interfaces: rosidl_cmake/srv/Partol_Request.msg
+CMakeFiles/chapt4_interfaces: rosidl_cmake/srv/Partol_Response.msg
 CMakeFiles/chapt4_interfaces: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 CMakeFiles/chapt4_interfaces: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 CMakeFiles/chapt4_interfaces: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl

@@ -16,6 +16,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__struct.hpp" "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
   "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__traits.hpp" "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
   "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.hpp" "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/partol__builder.hpp" "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/partol__struct.hpp" "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/partol__traits.hpp" "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/detail/partol__type_support.hpp" "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
+  "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/partol.hpp" "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/rosidl_generator_cpp/chapt4_interfaces/srv/face_detector.hpp"
   )
 
 

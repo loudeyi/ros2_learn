@@ -85,7 +85,9 @@ rosidl_generator_rs/chapt4_interfaces/rust/src/lib.rs: /opt/ros/humble/share/ros
 rosidl_generator_rs/chapt4_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
 rosidl_generator_rs/chapt4_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
 rosidl_generator_rs/chapt4_interfaces/rust/src/lib.rs: rosidl_adapter/chapt4_interfaces/srv/FaceDetector.idl
+rosidl_generator_rs/chapt4_interfaces/rust/src/lib.rs: rosidl_adapter/chapt4_interfaces/srv/Partol.idl
 rosidl_generator_rs/chapt4_interfaces/rust/src/lib.rs: rosidl_adapter/chapt4_interfaces/srv/FaceDetector.idl
+rosidl_generator_rs/chapt4_interfaces/rust/src/lib.rs: rosidl_adapter/chapt4_interfaces/srv/Partol.idl
 rosidl_generator_rs/chapt4_interfaces/rust/src/lib.rs: /opt/ros/humble/share/sensor_msgs/msg/BatteryState.idl
 rosidl_generator_rs/chapt4_interfaces/rust/src/lib.rs: /opt/ros/humble/share/sensor_msgs/msg/CameraInfo.idl
 rosidl_generator_rs/chapt4_interfaces/rust/src/lib.rs: /opt/ros/humble/share/sensor_msgs/msg/ChannelFloat32.idl
