@@ -1,0 +1,109 @@
+[0.030s] Invoking command in '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display': AMENT_PREFIX_PATH=/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display -- -j4 -l4
+[0.105s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.385s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.441s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.444s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.459s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.497s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.567s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.573s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.894s] -- Found status_interfaces: 0.0.0 (/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)
+[0.925s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.034s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.035s] -- Configured cppcheck include dirs: 
+[1.035s] -- Configured cppcheck exclude dirs and/or files: 
+[1.038s] -- Added test 'lint_cmake' to check CMake code style
+[1.038s] -- Added test 'uncrustify' to check C / C++ code style
+[1.039s] -- Configured uncrustify additional arguments: 
+[1.042s] -- Added test 'xmllint' to check XML markup files
+[1.042s] -- Configuring done
+[1.067s] -- Generating done
+[1.078s] -- Build files have been written to: /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display
+[1.156s] [35m[1mConsolidate compiler generated dependencies of target hello_qt[0m
+[1.204s] [ 50%] Built target hello_qt
+[1.204s] [ 75%] [32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o[0m
+[7.878s] [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:[m[K In lambda function:
+[7.878s] [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:21:98:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSysStatusDisplay::get_qstr_from_msg(const SharedPtr&)[m[K’
+[7.878s]    21 |                                                               { label_->setText([01;31m[Kget_qstr_from_msg(msg)[m[K); });
+[7.878s]       |                                                                                 [01;31m[K~~~~~~~~~~~~~~~~~^~~~~[m[K
+[7.878s] [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:27:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString SysStatusDisplay::get_qstr_from_msg()[m[K’
+[7.880s]    27 |     QString [01;36m[Kget_qstr_from_msg[m[K()
+[7.880s]       |             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.881s] [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:27:13:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[7.896s] [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:[m[K In constructor ‘[01m[KSysStatusDisplay::SysStatusDisplay()[m[K’:
+[7.896s] [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:22:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSysStatusDisplay::get_qstr_from_msg(std::shared_ptr<status_interfaces::msg::SystemStatus_<std::allocator<void> > >)[m[K’
+[7.896s]    22 |         label_->setText([01;31m[Kget_qstr_from_msg([m[K
+[7.896s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~^[m[K
+[7.896s]    23 | [01;31m[K            std::make_shared<SystemStatus>())[m[K);
+[7.896s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.896s] [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:27:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KQString SysStatusDisplay::get_qstr_from_msg()[m[K’
+[7.896s]    27 |     QString [01;36m[Kget_qstr_from_msg[m[K()
+[7.896s]       |             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.896s] [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:27:13:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[7.901s] [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:[m[K In member function ‘[01m[KQString SysStatusDisplay::get_qstr_from_msg()[m[K’:
+[7.902s] [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:41:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[7.902s]    41 |                  << "数 据 时 间\t" << [01;31m[Kmsg[m[K->stamp.sec << "\ts\n"
+[7.902s]       |                                        [01;31m[K^~~[m[K
+[7.902s] [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:41:40:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[7.902s] In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+[7.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[7.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[7.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:33[m[K,
+[7.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[7.902s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.903s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.903s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.903s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.903s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.903s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.903s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.903s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.903s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.903s]                  from [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:4[m[K:
+[7.903s] [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[7.903s]    28 | namespace [01;36m[Kmsg[m[K
+[7.903s]       |           [01;36m[K^~~[m[K
+[7.903s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[7.903s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[7.903s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[7.904s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[7.904s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[7.904s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.904s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.904s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.904s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.904s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.904s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.904s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.904s]                  from [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:4[m[K:
+[7.904s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[7.905s]    28 | namespace [01;36m[Kmsg[m[K
+[7.905s]       |           [01;36m[K^~~[m[K
+[7.905s] In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:24[m[K,
+[7.905s]                  from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[7.905s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[7.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[7.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[7.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[7.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.905s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.906s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.906s]                  from [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:4[m[K:
+[7.906s] [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:28:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[7.906s]    28 | namespace [01;36m[Kmsg[m[K
+[7.906s]       |           [01;36m[K^~~[m[K
+[7.906s] In file included from [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp:7[m[K,
+[7.907s]                  from [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:5[m[K:
+[7.908s] [01m[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp:32:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatus_interfaces::msg[m[K’
+[7.909s]    32 | namespace [01;36m[Kmsg[m[K
+[7.909s]       |           [01;36m[K^~~[m[K
+[13.862s] gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:76：CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o] 错误 1
+[13.863s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/sys_status_display.dir/all] 错误 2
+[13.863s] gmake: *** [Makefile:146：all] 错误 2
+[13.867s] Invoked command in '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display' returned '2': AMENT_PREFIX_PATH=/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display -- -j4 -l4

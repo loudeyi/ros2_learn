@@ -1,6 +1,7 @@
 /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display/CMakeFiles/uninstall.dir
 /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display/CMakeFiles/status_display_uninstall.dir
 /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display/CMakeFiles/hello_qt.dir
+/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display/CMakeFiles/sys_status_display.dir
 /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display/CMakeFiles/test.dir
 /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display/CMakeFiles/edit_cache.dir
 /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display/CMakeFiles/rebuild_cache.dir

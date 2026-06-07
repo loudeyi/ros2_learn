@@ -1,4 +1,5 @@
 /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_display/lib/status_display/hello_qt
+/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_display/lib/status_display/sys_status_display
 /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/package_run_dependencies/status_display
 /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_display/share/ament_index/resource_index/parent_prefix_path/status_display
 /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_display/share/status_display/environment/ament_prefix_path.sh

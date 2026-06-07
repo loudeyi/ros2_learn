@@ -1,0 +1,450 @@
+[0.000000] (-) TimerEvent: {}
+[0.004965] (status_interfaces) JobQueued: {'identifier': 'status_interfaces', 'dependencies': OrderedDict()}
+[0.005390] (status_display) JobQueued: {'identifier': 'status_display', 'dependencies': OrderedDict([('status_interfaces', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces')])}
+[0.005504] (status_publisher) JobQueued: {'identifier': 'status_publisher', 'dependencies': OrderedDict([('status_interfaces', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces')])}
+[0.005532] (status_interfaces) JobStarted: {'identifier': 'status_interfaces'}
+[0.021524] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'cmake'}
+[0.023745] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'build'}
+[0.026658] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'hzh'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hzh'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.123.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1660'), ('BUNDLED_DEBUGPY_PATH', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d83580b0ed850e0f8be4acb6a251a3e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '64227'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hzh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hzh-virtual-machine:@/tmp/.ICE-unix/1660,unix/hzh-virtual-machine:/tmp/.ICE-unix/1660'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4faf127_a767_4540_a23c_3acfbb4da4d4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8ce619300c05c449.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/hzh/.config/Code/User/workspaceStorage/e92f65c822173ef128a8372c3a234257/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ESPWQ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1d354ce24c.sock'), ('GNOME_TERMINAL_SERVICE', ':1.147'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'dc4ee9dedfbf6ef9228ed4d486532df4'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d83580b0ed850e0f8be4acb6a251a3e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100401] (-) TimerEvent: {}
+[0.192437] (status_interfaces) StdoutLine: {'line': b'[  9%] Built target status_interfaces__rosidl_generator_c\n'}
+[0.203086] (-) TimerEvent: {}
+[0.210309] (status_interfaces) StdoutLine: {'line': b'[ 12%] Built target status_interfaces__cpp\n'}
+[0.226512] (status_interfaces) StdoutLine: {'line': b'[ 15%] Built target status_interfaces__rs\n'}
+[0.247266] (status_interfaces) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_status_interfaces\n'}
+[0.286359] (status_interfaces) StdoutLine: {'line': b'[ 25%] Built target status_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.303531] (-) TimerEvent: {}
+[0.313372] (status_interfaces) StdoutLine: {'line': b'[ 34%] Built target status_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.329210] (status_interfaces) StdoutLine: {'line': b'[ 43%] Built target status_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.331503] (status_interfaces) StdoutLine: {'line': b'[ 53%] Built target status_interfaces__rosidl_typesupport_c\n'}
+[0.382483] (status_interfaces) StdoutLine: {'line': b'[ 62%] Built target status_interfaces__rosidl_typesupport_cpp\n'}
+[0.393597] (status_interfaces) StdoutLine: {'line': b'[ 71%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.404229] (-) TimerEvent: {}
+[0.444867] (status_interfaces) StdoutLine: {'line': b'[ 71%] Built target status_interfaces\n'}
+[0.508042] (-) TimerEvent: {}
+[0.525367] (status_interfaces) StdoutLine: {'line': b'[ 75%] Built target status_interfaces__py\n'}
+[0.578725] (status_interfaces) StdoutLine: {'line': b'[ 81%] Built target status_interfaces__rosidl_generator_py\n'}
+[0.608292] (-) TimerEvent: {}
+[0.677540] (status_interfaces) StdoutLine: {'line': b'[ 87%] Built target status_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.700386] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.701081] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.708509] (-) TimerEvent: {}
+[0.809364] (-) TimerEvent: {}
+[0.897867] (status_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.901034] (status_interfaces) StdoutLine: {'line': b'writing status_interfaces.egg-info/PKG-INFO\n'}
+[0.902789] (status_interfaces) StdoutLine: {'line': b'writing dependency_links to status_interfaces.egg-info/dependency_links.txt\n'}
+[0.904697] (status_interfaces) StdoutLine: {'line': b'writing top-level names to status_interfaces.egg-info/top_level.txt\n'}
+[0.910617] (-) TimerEvent: {}
+[0.911501] (status_interfaces) StdoutLine: {'line': b"reading manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[0.914575] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[0.996513] (status_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_status_interfaces_egg\n'}
+[1.011376] (-) TimerEvent: {}
+[1.022653] (status_interfaces) CommandEnded: {'returncode': 0}
+[1.025463] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'install'}
+[1.047851] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces'], 'cwd': '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'hzh'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hzh'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.123.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1660'), ('BUNDLED_DEBUGPY_PATH', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d83580b0ed850e0f8be4acb6a251a3e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '64227'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hzh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hzh-virtual-machine:@/tmp/.ICE-unix/1660,unix/hzh-virtual-machine:/tmp/.ICE-unix/1660'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4faf127_a767_4540_a23c_3acfbb4da4d4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8ce619300c05c449.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/hzh/.config/Code/User/workspaceStorage/e92f65c822173ef128a8372c3a234257/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ESPWQ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1d354ce24c.sock'), ('GNOME_TERMINAL_SERVICE', ':1.147'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'dc4ee9dedfbf6ef9228ed4d486532df4'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d83580b0ed850e0f8be4acb6a251a3e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.062592] (status_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.063397] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces\n'}
+[1.063469] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[1.063533] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[1.063582] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.063630] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h\n'}
+[1.063843] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[1.063990] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h\n'}
+[1.066701] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h\n'}
+[1.067876] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c\n'}
+[1.068091] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h\n'}
+[1.068155] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh\n'}
+[1.068454] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv\n'}
+[1.068522] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so\n'}
+[1.068575] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[1.068626] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[1.068672] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.068719] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[1.068766] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.068828] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.068876] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[1.068923] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[1.068970] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[1.069022] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp\n'}
+[1.069071] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp\n'}
+[1.069171] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp\n'}
+[1.069231] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[1.069281] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.071686] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp\n'}
+[1.071781] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[1.071845] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[1.073703] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.073798] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[1.073855] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps\n'}
+[1.074122] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.074290] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.074354] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[1.076260] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[1.076674] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.076755] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[1.076807] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c\n'}
+[1.076857] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[1.076915] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.076966] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so\n'}
+[1.077329] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[1.077429] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[1.077481] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[1.077530] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp\n'}
+[1.077579] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.077628] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.077674] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.077721] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh\n'}
+[1.077768] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv\n'}
+[1.077815] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.077861] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.079790] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.081944] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.082019] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.082387] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces\n'}
+[1.082483] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.082533] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.082612] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.082659] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py\n'}
+[1.082704] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so\n'}
+[1.082750] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.082797] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.082844] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg\n'}
+[1.082890] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py\n'}
+[1.082935] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c\n'}
+[1.082981] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py\n'}
+[1.083045] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.112283] (-) TimerEvent: {}
+[1.135430] (status_interfaces) StdoutLine: {'line': b"Listing '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...\n"}
+[1.135755] (status_interfaces) StdoutLine: {'line': b"Listing '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...\n"}
+[1.142684] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.143142] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.143348] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.145631] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so\n'}
+[1.145930] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rust_packages/status_interfaces\n'}
+[1.145998] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust\n'}
+[1.146469] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/Cargo.toml\n'}
+[1.146619] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/build.rs\n'}
+[1.146692] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src\n'}
+[1.146743] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/lib.rs\n'}
+[1.146791] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg.rs\n'}
+[1.146837] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg\n'}
+[1.146901] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg/rmw.rs\n'}
+[1.146950] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl\n'}
+[1.146996] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg\n'}
+[1.147041] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces\n'}
+[1.147089] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces\n'}
+[1.147140] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh\n'}
+[1.147535] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.147616] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.sh\n'}
+[1.149107] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv\n'}
+[1.149477] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.bash\n'}
+[1.149816] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.sh\n'}
+[1.150351] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh\n'}
+[1.150624] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv\n'}
+[1.152488] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.dsv\n'}
+[1.152999] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces\n'}
+[1.153061] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.153113] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.153202] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.153431] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.153499] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.153548] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.153595] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.153642] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.153688] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.153736] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.153795] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.153843] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.153890] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.153937] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.153984] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.154036] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.154090] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.154137] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.154184] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.154230] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.154651] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.158349] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.158436] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.158488] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.158537] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake\n'}
+[1.158584] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake\n'}
+[1.158631] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.xml\n'}
+[1.158678] (status_interfaces) CommandEnded: {'returncode': 0}
+[1.210689] (status_interfaces) JobEnded: {'identifier': 'status_interfaces', 'rc': 0}
+[1.212278] (-) TimerEvent: {}
+[1.214703] (status_display) JobStarted: {'identifier': 'status_display'}
+[1.219565] (status_publisher) JobStarted: {'identifier': 'status_publisher'}
+[1.241760] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'cmake'}
+[1.243474] (status_display) JobProgress: {'identifier': 'status_display', 'progress': 'build'}
+[1.243880] (status_display) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display', '--', '-j4', '-l4'], 'cwd': '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'hzh'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hzh'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.123.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1660'), ('BUNDLED_DEBUGPY_PATH', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d83580b0ed850e0f8be4acb6a251a3e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '64227'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hzh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hzh-virtual-machine:@/tmp/.ICE-unix/1660,unix/hzh-virtual-machine:/tmp/.ICE-unix/1660'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4faf127_a767_4540_a23c_3acfbb4da4d4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8ce619300c05c449.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/hzh/.config/Code/User/workspaceStorage/e92f65c822173ef128a8372c3a234257/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ESPWQ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1d354ce24c.sock'), ('GNOME_TERMINAL_SERVICE', ':1.147'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'dc4ee9dedfbf6ef9228ed4d486532df4'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=1d83580b0ed850e0f8be4acb6a251a3e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble')]), 'shell': False}
+[1.313202] (-) TimerEvent: {}
+[1.319274] (status_display) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.413987] (-) TimerEvent: {}
+[1.516045] (-) TimerEvent: {}
+[1.599428] (status_display) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.617044] (-) TimerEvent: {}
+[1.655646] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.658361] (status_display) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.673437] (status_display) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.689463] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.711181] (status_display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.720804] (-) TimerEvent: {}
+[1.781039] (status_display) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.787835] (status_display) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.821445] (-) TimerEvent: {}
+[1.923449] (-) TimerEvent: {}
+[2.024182] (-) TimerEvent: {}
+[2.037320] (status_display) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.108097] (status_display) StdoutLine: {'line': b'-- Found status_interfaces: 0.0.0 (/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake)\n'}
+[2.126537] (-) TimerEvent: {}
+[2.139565] (status_display) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.227268] (-) TimerEvent: {}
+[2.248597] (status_display) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.249328] (status_display) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.249564] (status_display) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.252247] (status_display) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.252946] (status_display) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.253251] (status_display) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.256465] (status_display) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.256667] (status_display) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.281868] (status_display) StdoutLine: {'line': b'-- Generating done\n'}
+[2.292707] (status_display) StdoutLine: {'line': b'-- Build files have been written to: /home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_display\n'}
+[2.302797] (status_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/status_publisher', 'build', '--build-base', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_publisher/build', 'install', '--record', '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_publisher', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'hzh', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hzh', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.123.0', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1660', 'BUNDLED_DEBUGPY_PATH': '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1d83580b0ed850e0f8be4acb6a251a3e', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'hzh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '64227', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hzh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/hzh-virtual-machine:@/tmp/.ICE-unix/1660,unix/hzh-virtual-machine:/tmp/.ICE-unix/1660', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f4faf127_a767_4540_a23c_3acfbb4da4d4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8ce619300c05c449.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/hzh/.config/Code/User/workspaceStorage/e92f65c822173ef128a8372c3a234257/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ESPWQ3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1d354ce24c.sock', 'GNOME_TERMINAL_SERVICE': ':1.147', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': 'dc4ee9dedfbf6ef9228ed4d486532df4', 'CLUTTER_IM_MODULE': 'xim', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=1d83580b0ed850e0f8be4acb6a251a3e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages:/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces'}, 'shell': False}
+[2.327797] (-) TimerEvent: {}
+[2.370310] (status_display) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hello_qt\x1b[0m\n'}
+[2.418544] (status_display) StdoutLine: {'line': b'[ 50%] Built target hello_qt\n'}
+[2.418766] (status_display) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o\x1b[0m\n'}
+[2.431502] (-) TimerEvent: {}
+[2.532356] (-) TimerEvent: {}
+[2.634178] (-) TimerEvent: {}
+[2.674409] (status_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[2.675210] (status_publisher) StdoutLine: {'line': b'writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO\n'}
+[2.676632] (status_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt\n'}
+[2.677972] (status_publisher) StdoutLine: {'line': b'writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt\n'}
+[2.681320] (status_publisher) StdoutLine: {'line': b'writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt\n'}
+[2.681562] (status_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt\n'}
+[2.684455] (status_publisher) StdoutLine: {'line': b"reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'\n"}
+[2.687200] (status_publisher) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.687377] (status_publisher) StdoutLine: {'line': b"writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'\n"}
+[2.687434] (status_publisher) StdoutLine: {'line': b'running build\n'}
+[2.687481] (status_publisher) StdoutLine: {'line': b'running build_py\n'}
+[2.688756] (status_publisher) StdoutLine: {'line': b'running install\n'}
+[2.688932] (status_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[2.691389] (status_publisher) StdoutLine: {'line': b'running install_data\n'}
+[2.693313] (status_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.694411] (status_publisher) StdoutLine: {'line': b"removing '/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.695657] (status_publisher) StdoutLine: {'line': b'Copying ../../build/status_publisher/status_publisher.egg-info to /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_publisher/lib/python3.10/site-packages/status_publisher-0.0.0-py3.10.egg-info\n'}
+[2.697144] (status_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[2.730342] (status_publisher) StdoutLine: {'line': b'Installing sys_status_pub script to /home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_publisher/lib/status_publisher\n'}
+[2.733507] (status_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/hzh/ros2_learn/chapt3/topic_practice_ws/build/status_publisher/install.log'\n"}
+[2.734410] (-) TimerEvent: {}
+[2.793833] (status_publisher) CommandEnded: {'returncode': 0}
+[2.825752] (status_publisher) JobEnded: {'identifier': 'status_publisher', 'rc': 0}
+[2.835581] (-) TimerEvent: {}
+[2.936333] (-) TimerEvent: {}
+[3.037133] (-) TimerEvent: {}
+[3.138198] (-) TimerEvent: {}
+[3.238867] (-) TimerEvent: {}
+[3.339673] (-) TimerEvent: {}
+[3.440667] (-) TimerEvent: {}
+[3.541701] (-) TimerEvent: {}
+[3.643919] (-) TimerEvent: {}
+[3.745351] (-) TimerEvent: {}
+[3.846551] (-) TimerEvent: {}
+[3.947316] (-) TimerEvent: {}
+[4.048193] (-) TimerEvent: {}
+[4.150162] (-) TimerEvent: {}
+[4.251421] (-) TimerEvent: {}
+[4.352564] (-) TimerEvent: {}
+[4.453199] (-) TimerEvent: {}
+[4.554354] (-) TimerEvent: {}
+[4.655372] (-) TimerEvent: {}
+[4.757458] (-) TimerEvent: {}
+[4.858221] (-) TimerEvent: {}
+[4.959451] (-) TimerEvent: {}
+[5.060613] (-) TimerEvent: {}
+[5.163256] (-) TimerEvent: {}
+[5.265343] (-) TimerEvent: {}
+[5.367147] (-) TimerEvent: {}
+[5.468539] (-) TimerEvent: {}
+[5.573357] (-) TimerEvent: {}
+[5.673906] (-) TimerEvent: {}
+[5.774432] (-) TimerEvent: {}
+[5.876307] (-) TimerEvent: {}
+[5.978182] (-) TimerEvent: {}
+[6.078794] (-) TimerEvent: {}
+[6.182031] (-) TimerEvent: {}
+[6.284040] (-) TimerEvent: {}
+[6.385608] (-) TimerEvent: {}
+[6.486990] (-) TimerEvent: {}
+[6.588468] (-) TimerEvent: {}
+[6.689551] (-) TimerEvent: {}
+[6.790775] (-) TimerEvent: {}
+[6.891668] (-) TimerEvent: {}
+[6.992880] (-) TimerEvent: {}
+[7.094989] (-) TimerEvent: {}
+[7.195944] (-) TimerEvent: {}
+[7.297067] (-) TimerEvent: {}
+[7.398164] (-) TimerEvent: {}
+[7.499359] (-) TimerEvent: {}
+[7.600167] (-) TimerEvent: {}
+[7.700758] (-) TimerEvent: {}
+[7.801741] (-) TimerEvent: {}
+[7.902745] (-) TimerEvent: {}
+[8.004090] (-) TimerEvent: {}
+[8.105318] (-) TimerEvent: {}
+[8.206658] (-) TimerEvent: {}
+[8.308107] (-) TimerEvent: {}
+[8.409134] (-) TimerEvent: {}
+[8.510453] (-) TimerEvent: {}
+[8.611570] (-) TimerEvent: {}
+[8.712455] (-) TimerEvent: {}
+[8.813444] (-) TimerEvent: {}
+[8.914332] (-) TimerEvent: {}
+[9.015253] (-) TimerEvent: {}
+[9.091846] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[9.092528] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:21:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSysStatusDisplay::get_qstr_from_msg(const SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.092688] (status_display) StderrLine: {'line': b'   21 |                                                               { label_->setText(\x1b[01;31m\x1b[Kget_qstr_from_msg(msg)\x1b[m\x1b[K); });\n'}
+[9.092792] (status_display) StderrLine: {'line': b'      |                                                                                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[9.092886] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:27:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KQString SysStatusDisplay::get_qstr_from_msg()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.092984] (status_display) StderrLine: {'line': b'   27 |     QString \x1b[01;36m\x1b[Kget_qstr_from_msg\x1b[m\x1b[K()\n'}
+[9.094680] (status_display) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.095119] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:27:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[9.110532] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSysStatusDisplay::SysStatusDisplay()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.110715] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:22:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSysStatusDisplay::get_qstr_from_msg(std::shared_ptr<status_interfaces::msg::SystemStatus_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.110785] (status_display) StderrLine: {'line': b'   22 |         label_->setText(\x1b[01;31m\x1b[Kget_qstr_from_msg(\x1b[m\x1b[K\n'}
+[9.110834] (status_display) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[9.110879] (status_display) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[K            std::make_shared<SystemStatus>())\x1b[m\x1b[K);\n'}
+[9.110923] (status_display) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.110967] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:27:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KQString SysStatusDisplay::get_qstr_from_msg()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.111013] (status_display) StderrLine: {'line': b'   27 |     QString \x1b[01;36m\x1b[Kget_qstr_from_msg\x1b[m\x1b[K()\n'}
+[9.111057] (status_display) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.111102] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:27:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[9.114849] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KQString SysStatusDisplay::get_qstr_from_msg()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.115532] (-) TimerEvent: {}
+[9.116074] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:41:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.116505] (status_display) StderrLine: {'line': b'   41 |                  << "\xe6\x95\xb0 \xe6\x8d\xae \xe6\x97\xb6 \xe9\x97\xb4\\t" << \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K->stamp.sec << "\\ts\\n"\n'}
+[9.116666] (status_display) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.116764] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:41:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[9.116825] (status_display) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[9.116878] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[9.116949] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[9.117018] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:33\x1b[m\x1b[K,\n'}
+[9.117067] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[9.117180] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[9.117247] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[9.117437] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[9.117495] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[9.117542] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[9.117610] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[9.117656] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[9.117702] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[9.117770] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.117910] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:4\x1b[m\x1b[K:\n'}
+[9.117969] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.118019] (status_display) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[9.118064] (status_display) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.118109] (status_display) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[9.118155] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[9.118202] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[9.118434] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[9.118564] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[9.118613] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[9.118659] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[9.118704] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[9.118750] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[9.118794] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[9.118912] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[9.119051] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.119122] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:4\x1b[m\x1b[K:\n'}
+[9.119173] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.119220] (status_display) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[9.119489] (status_display) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.119561] (status_display) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:24\x1b[m\x1b[K,\n'}
+[9.119662] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[9.119717] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[9.119765] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[9.119833] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[9.119881] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[9.120003] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[9.120056] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[9.120267] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[9.120336] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[9.120387] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[9.120446] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[9.120490] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[9.120595] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:4\x1b[m\x1b[K:\n'}
+[9.120646] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:28:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.120707] (status_display) StderrLine: {'line': b'   28 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[9.120753] (status_display) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.120798] (status_display) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp:7\x1b[m\x1b[K,\n'}
+[9.121140] (status_display) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/src/status_display/src/sys_status_display.cpp:5\x1b[m\x1b[K:\n'}
+[9.121731] (status_display) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hzh/ros2_learn/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp:32:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatus_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.122787] (status_display) StderrLine: {'line': b'   32 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[9.123362] (status_display) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.216232] (-) TimerEvent: {}
+[9.317527] (-) TimerEvent: {}
+[9.419094] (-) TimerEvent: {}
+[9.520329] (-) TimerEvent: {}
+[9.622287] (-) TimerEvent: {}
+[9.723592] (-) TimerEvent: {}
+[9.824553] (-) TimerEvent: {}
+[9.925548] (-) TimerEvent: {}
+[10.026687] (-) TimerEvent: {}
+[10.128101] (-) TimerEvent: {}
+[10.229868] (-) TimerEvent: {}
+[10.330634] (-) TimerEvent: {}
+[10.431212] (-) TimerEvent: {}
+[10.531717] (-) TimerEvent: {}
+[10.632505] (-) TimerEvent: {}
+[10.733469] (-) TimerEvent: {}
+[10.834747] (-) TimerEvent: {}
+[10.935479] (-) TimerEvent: {}
+[11.036647] (-) TimerEvent: {}
+[11.137221] (-) TimerEvent: {}
+[11.238320] (-) TimerEvent: {}
+[11.338937] (-) TimerEvent: {}
+[11.439685] (-) TimerEvent: {}
+[11.540606] (-) TimerEvent: {}
+[11.641310] (-) TimerEvent: {}
+[11.742038] (-) TimerEvent: {}
+[11.842668] (-) TimerEvent: {}
+[11.943730] (-) TimerEvent: {}
+[12.045501] (-) TimerEvent: {}
+[12.146308] (-) TimerEvent: {}
+[12.247068] (-) TimerEvent: {}
+[12.347768] (-) TimerEvent: {}
+[12.448868] (-) TimerEvent: {}
+[12.549706] (-) TimerEvent: {}
+[12.650732] (-) TimerEvent: {}
+[12.751414] (-) TimerEvent: {}
+[12.852528] (-) TimerEvent: {}
+[12.953373] (-) TimerEvent: {}
+[13.053860] (-) TimerEvent: {}
+[13.155283] (-) TimerEvent: {}
+[13.256069] (-) TimerEvent: {}
+[13.357061] (-) TimerEvent: {}
+[13.457915] (-) TimerEvent: {}
+[13.558559] (-) TimerEvent: {}
+[13.659460] (-) TimerEvent: {}
+[13.760347] (-) TimerEvent: {}
+[13.861212] (-) TimerEvent: {}
+[13.962471] (-) TimerEvent: {}
+[14.063425] (-) TimerEvent: {}
+[14.164092] (-) TimerEvent: {}
+[14.264949] (-) TimerEvent: {}
+[14.366536] (-) TimerEvent: {}
+[14.467452] (-) TimerEvent: {}
+[14.568313] (-) TimerEvent: {}
+[14.669376] (-) TimerEvent: {}
+[14.770033] (-) TimerEvent: {}
+[14.871121] (-) TimerEvent: {}
+[14.971988] (-) TimerEvent: {}
+[15.073362] (-) TimerEvent: {}
+[15.076221] (status_display) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sys_status_display.dir/build.make:76\xef\xbc\x9aCMakeFiles/sys_status_display.dir/src/sys_status_display.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[15.077221] (status_display) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/sys_status_display.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[15.077395] (status_display) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[15.081237] (status_display) CommandEnded: {'returncode': 2}
+[15.096191] (status_display) JobEnded: {'identifier': 'status_display', 'rc': 2}
+[15.108129] (-) EventReactorShutdown: {}
