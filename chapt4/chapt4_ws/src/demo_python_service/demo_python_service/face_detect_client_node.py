@@ -29,11 +29,15 @@ class FaceDetectClientNode(Node):
         future = self.client.call_async(request) # 现在future并没有包含响应结果，需要等待服务端处理完成才会把结果放到future中
         # while not future.done():
         #     time.sleep(1.0) #休眠当前线程，等待服务完成===会造成当前线程无法再接收来自服务端的返回,导致永远没有办法完成 future.done 无法返回True
-        rclpy.spin_until_future_complete(self,future) #等待服务端返回响应
-        response = future.result() #获取响应
+        # rclpy.spin_until_future_complete(self,future) #等待服务端返回响应
+        def result_callback(result_future):
+            response = future.result() #获取响应
+            self.get_logger().info(f'接收到响应,共检测到{response.number}张人脸,耗时{response.use_time}s')
+            self.show_response(response)
 
-        self.get_logger().info(f'接收到响应,共检测到{response.number}张人脸,耗时{response.use_time}s')
-        self.show_response(response)
+        future.add_done_callback(result_callback)
+
+
 
 
     def show_response(self,response):
