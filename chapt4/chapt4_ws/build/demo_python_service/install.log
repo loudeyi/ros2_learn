@@ -1,9 +1,11 @@
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/learn_face_detect.py
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__init__.py
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_node.py
+/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/face_detect_client_node.py
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/learn_face_detect.cpython-310.pyc
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/__init__.cpython-310.pyc
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/face_detect_node.cpython-310.pyc
+/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service/__pycache__/face_detect_client_node.cpython-310.pyc
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/ament_index/resource_index/packages/demo_python_service
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/package.xml
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/resource/default.jpg
@@ -15,5 +17,6 @@
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info/top_level.txt
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info/PKG-INFO
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info/entry_points.txt
+/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service/face_detect_client_node
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service/face_detect_node
 /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service/learn_face_detect
