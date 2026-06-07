@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.001090] (chapt4_interfaces) JobQueued: {'identifier': 'chapt4_interfaces', 'dependencies': OrderedDict()}
+[0.001165] (chapt4_interfaces) JobStarted: {'identifier': 'chapt4_interfaces'}
+[0.014302] (chapt4_interfaces) JobProgress: {'identifier': 'chapt4_interfaces', 'progress': 'cmake'}
+[0.016484] (chapt4_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/chapt4_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces'], 'cwd': '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'hzh'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hzh'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/hzh/ros2_learn/chapt4/chapt4_ws/src'), ('TERM_PROGRAM_VERSION', '1.123.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1863'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '22230'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hzh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hzh-virtual-machine:@/tmp/.ICE-unix/1660,unix/hzh-virtual-machine:/tmp/.ICE-unix/1660'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e19cd171_0d93_41b7_aade_feb0b891e31a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ESPWQ3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-426843803f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.197'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '5fbb7627a0cd01da6d7f863bab06f506'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099657] (-) TimerEvent: {}
+[0.134055] (chapt4_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200969] (-) TimerEvent: {}
+[0.226473] (chapt4_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.243903] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.301424] (-) TimerEvent: {}
+[0.403196] (-) TimerEvent: {}
+[0.457227] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.474114] (chapt4_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.474410] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.474488] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.490308] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.504949] (-) TimerEvent: {}
+[0.606937] (-) TimerEvent: {}
+[0.668320] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.676527] (chapt4_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.677339] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.677948] (chapt4_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.682825] (chapt4_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.708847] (-) TimerEvent: {}
+[0.810002] (-) TimerEvent: {}
+[0.904059] (chapt4_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.910896] (-) TimerEvent: {}
+[1.012188] (-) TimerEvent: {}
+[1.028761] (chapt4_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.071408] (chapt4_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.077726] (chapt4_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.088569] (chapt4_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.103423] (chapt4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.113176] (-) TimerEvent: {}
+[1.123358] (chapt4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.213882] (-) TimerEvent: {}
+[1.240251] (chapt4_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.240583] (chapt4_interfaces) StdoutLine: {'line': b'See also "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.241822] (chapt4_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[1.242112] (chapt4_interfaces) StderrLine: {'line': b'  By not providing "Findrosidl__default_generators.cmake" in\n'}
+[1.242165] (chapt4_interfaces) StderrLine: {'line': b'  CMAKE_MODULE_PATH this project has asked CMake to find a package\n'}
+[1.242209] (chapt4_interfaces) StderrLine: {'line': b'  configuration file provided by "rosidl__default_generators", but CMake did\n'}
+[1.242257] (chapt4_interfaces) StderrLine: {'line': b'  not find one.\n'}
+[1.242323] (chapt4_interfaces) StderrLine: {'line': b'\n'}
+[1.242378] (chapt4_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.242420] (chapt4_interfaces) StderrLine: {'line': b'  "rosidl__default_generators" with any of the following names:\n'}
+[1.242462] (chapt4_interfaces) StderrLine: {'line': b'\n'}
+[1.242503] (chapt4_interfaces) StderrLine: {'line': b'    rosidl__default_generatorsConfig.cmake\n'}
+[1.242544] (chapt4_interfaces) StderrLine: {'line': b'    rosidl__default_generators-config.cmake\n'}
+[1.242786] (chapt4_interfaces) StderrLine: {'line': b'\n'}
+[1.242960] (chapt4_interfaces) StderrLine: {'line': b'  Add the installation prefix of "rosidl__default_generators" to\n'}
+[1.243058] (chapt4_interfaces) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl__default_generators_DIR" to a directory\n'}
+[1.243113] (chapt4_interfaces) StderrLine: {'line': b'  containing one of the above files.  If "rosidl__default_generators"\n'}
+[1.243156] (chapt4_interfaces) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.243197] (chapt4_interfaces) StderrLine: {'line': b'  installed.\n'}
+[1.243238] (chapt4_interfaces) StderrLine: {'line': b'\n'}
+[1.243279] (chapt4_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.250463] (chapt4_interfaces) CommandEnded: {'returncode': 1}
+[1.280794] (chapt4_interfaces) JobEnded: {'identifier': 'chapt4_interfaces', 'rc': 1}
+[1.292901] (-) EventReactorShutdown: {}
