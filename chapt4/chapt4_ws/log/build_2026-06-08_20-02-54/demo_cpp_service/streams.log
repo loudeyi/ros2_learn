@@ -1,0 +1,52 @@
+[0.025s] Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service
+[0.055s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.285s] -- Found chapt4_interfaces: 0.0.0 (/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.311s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.315s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.323s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.334s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.349s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.441s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.477s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.477s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.680s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.767s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.847s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.039s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.040s] -- Configured cppcheck include dirs: 
+[1.040s] -- Configured cppcheck exclude dirs and/or files: 
+[1.040s] -- Added test 'lint_cmake' to check CMake code style
+[1.042s] -- Added test 'uncrustify' to check C / C++ code style
+[1.042s] -- Configured uncrustify additional arguments: 
+[1.042s] -- Added test 'xmllint' to check XML markup files
+[1.046s] -- Configuring done
+[1.080s] -- Generating done
+[1.091s] -- Build files have been written to: /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service
+[1.124s] Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service
+[1.130s] Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service -- -j4 -l4
+[1.286s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[8.102s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[8.102s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[8.102s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[8.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[8.102s]                  from [01m[K/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:1[m[K:
+[8.102s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = TurtleController; _Args = {const char (&)[18]}; _Tp = TurtleController][m[K’:
+[8.102s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = TurtleController; _Args = {const char (&)[18]}; _Tp = TurtleController; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<TurtleController>][m[K’
+[8.102s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[18]}; _Tp = TurtleController; _Alloc = std::allocator<TurtleController>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[8.102s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = TurtleController; _Alloc = std::allocator<TurtleController>; _Args = {const char (&)[18]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[8.102s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TurtleController>; _Args = {const char (&)[18]}; _Tp = TurtleController; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[8.102s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<TurtleController>; _Args = {const char (&)[18]}; _Tp = TurtleController][m[K’
+[8.102s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = TurtleController; _Alloc = std::allocator<TurtleController>; _Args = {const char (&)[18]}][m[K’
+[8.103s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = TurtleController; _Args = {const char (&)[18]}][m[K’
+[8.103s] [01m[K/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:81:51:[m[K   required from here
+[8.103s] [01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTurtleController::TurtleController(const char [18])[m[K’
+[8.103s]   162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+[8.103s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.103s] [01m[K/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:11:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KTurtleController::TurtleController()[m[K’
+[8.103s]    11 |     [01;36m[KTurtleController[m[K() : Node("turtle_controller")
+[8.103s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[8.104s] [01m[K/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_cpp_service/src/turtle_control.cpp:11:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[11.527s] gmake[2]: *** [CMakeFiles/turtle_control.dir/build.make:76：CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o] 错误 1
+[11.527s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/turtle_control.dir/all] 错误 2
+[11.528s] gmake: *** [Makefile:146：all] 错误 2
+[11.533s] Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service' returned '2': AMENT_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service -- -j4 -l4
