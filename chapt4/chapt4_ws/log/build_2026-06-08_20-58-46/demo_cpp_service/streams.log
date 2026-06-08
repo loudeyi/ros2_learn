@@ -1,0 +1,25 @@
+[0.028s] Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service -- -j4 -l4
+[0.168s] [35m[1mConsolidate compiler generated dependencies of target partol_client[0m
+[0.188s] [ 50%] Built target turtle_control
+[0.214s] [100%] Built target partol_client
+[0.426s] Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service -- -j4 -l4
+[0.430s] Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service
+[0.445s] -- Install configuration: ""
+[0.445s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[0.445s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/lib/demo_cpp_service/partol_client
+[0.446s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[0.447s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[0.448s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[0.449s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[0.449s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[0.450s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[0.451s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[0.451s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[0.451s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[0.451s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[0.451s] -- Installing: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[0.451s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[0.451s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[0.451s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[0.452s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[0.452s] Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service
