@@ -1,0 +1,24 @@
+[1.357s] Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_python_service': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service PYTHONPATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[1.834s] running egg_info
+[1.837s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[1.840s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[1.840s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[1.842s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[1.845s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[1.848s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.849s] adding license file 'LICENSE'
+[1.851s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.853s] running build
+[1.853s] running build_py
+[1.857s] running install
+[1.858s] running install_lib
+[1.861s] running install_data
+[1.862s] running install_egg_info
+[1.866s] removing '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info' (and everything under it)
+[1.868s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages/demo_python_service-0.0.0-py3.10.egg-info
+[1.872s] running install_scripts
+[1.914s] Installing face_detect_client_node script to /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.914s] Installing face_detect_node script to /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.914s] Installing learn_face_detect script to /home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[1.916s] writing list of installed files to '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service/install.log'
+[1.990s] Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_python_service' returned '0': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service PYTHONPATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
