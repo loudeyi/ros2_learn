@@ -1,0 +1,272 @@
+[0.129s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.129s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x738f7dc97bb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x738f7dc975b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x738f7dc975b0>>)
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.322s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hzh/ros2_learn/chapt4/chapt4_ws'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chapt4_interfaces' with type 'ros.ament_cmake' and name 'chapt4_interfaces'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_cpp_service) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo_cpp_service' with type 'ros.ament_cmake' and name 'demo_cpp_service'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo_python_service' with type 'ros.ament_python' and name 'demo_python_service'
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.372s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.373s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.373s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.373s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.373s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.374s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/hzh/ros2_learn/chapt4/chapt4_ws/install
+[0.375s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'chapt4_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces', 'merge_install': False, 'path': '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/chapt4_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_cpp_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'demo_cpp_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service', 'merge_install': False, 'path': '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_cpp_service', 'symlink_install': False, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'demo_python_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service', 'merge_install': False, 'path': '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_python_service', 'symlink_install': False, 'test_result_base': None}
+[0.436s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.439s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/chapt4_interfaces' with build type 'ament_cmake'
+[0.439s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/chapt4_interfaces'
+[0.442s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces
+[3.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces
+[3.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces -- -j4 -l4
+[9.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces -- -j4 -l4
+[9.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces
+[9.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chapt4_interfaces)
+[9.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces
+[9.642s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces' for CMake module files
+[9.643s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces' for CMake config files
+[9.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('chapt4_interfaces', 'cmake_prefix_path')
+[9.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.ps1'
+[9.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.dsv'
+[9.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.sh'
+[9.649s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib'
+[9.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('chapt4_interfaces', 'ld_library_path_lib')
+[9.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.ps1'
+[9.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.dsv'
+[9.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.sh'
+[9.653s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/bin'
+[9.653s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib/pkgconfig/chapt4_interfaces.pc'
+[9.653s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.10/site-packages'
+[9.654s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/bin'
+[9.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.ps1'
+[9.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv'
+[9.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.sh'
+[9.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.bash'
+[9.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.zsh'
+[9.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/colcon-core/packages/chapt4_interfaces)
+[9.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chapt4_interfaces)
+[9.665s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces' for CMake module files
+[9.668s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces' for CMake config files
+[9.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('chapt4_interfaces', 'cmake_prefix_path')
+[9.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.ps1'
+[9.669s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.dsv'
+[9.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.sh'
+[9.672s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib'
+[9.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('chapt4_interfaces', 'ld_library_path_lib')
+[9.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.ps1'
+[9.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.dsv'
+[9.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.sh'
+[9.676s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/bin'
+[9.676s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib/pkgconfig/chapt4_interfaces.pc'
+[9.676s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.10/site-packages'
+[9.677s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/bin'
+[9.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.ps1'
+[9.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv'
+[9.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.sh'
+[9.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.bash'
+[9.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.zsh'
+[9.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/colcon-core/packages/chapt4_interfaces)
+[9.684s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_cpp_service' with build type 'ament_cmake'
+[9.684s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_cpp_service'
+[9.684s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.684s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.692s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_python_service' with build type 'ament_python'
+[9.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_python_service', 'ament_prefix_path')
+[9.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/hook/ament_prefix_path.ps1'
+[9.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/hook/ament_prefix_path.dsv'
+[9.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/hook/ament_prefix_path.sh'
+[9.699s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.699s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service
+[10.092s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_python_service'
+[10.094s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.094s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_python_service': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service PYTHONPATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[11.092s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service' for CMake module files
+[11.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_python_service' returned '0': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service PYTHONPATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[11.097s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service' for CMake config files
+[11.098s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib'
+[11.098s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/bin'
+[11.098s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/pkgconfig/demo_python_service.pc'
+[11.098s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages'
+[11.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_python_service', 'pythonpath')
+[11.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/hook/pythonpath.ps1'
+[11.100s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/hook/pythonpath.dsv'
+[11.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/hook/pythonpath.sh'
+[11.104s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/bin'
+[11.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_python_service)
+[11.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/package.ps1'
+[11.106s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/package.dsv'
+[11.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/package.sh'
+[11.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/package.bash'
+[11.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/package.zsh'
+[11.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service/share/colcon-core/packages/demo_python_service)
+[11.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service
+[11.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service -- -j4 -l4
+[30.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service -- -j4 -l4
+[30.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service
+[30.413s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_cpp_service)
+[30.413s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service' for CMake module files
+[30.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service' returned '0': CMAKE_PREFIX_PATH=/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service
+[30.415s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service' for CMake config files
+[30.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_cpp_service', 'cmake_prefix_path')
+[30.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/hook/cmake_prefix_path.ps1'
+[30.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/hook/cmake_prefix_path.dsv'
+[30.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/hook/cmake_prefix_path.sh'
+[30.418s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/lib'
+[30.418s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/bin'
+[30.418s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/lib/pkgconfig/demo_cpp_service.pc'
+[30.418s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/lib/python3.10/site-packages'
+[30.418s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/bin'
+[30.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.ps1'
+[30.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.dsv'
+[30.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.sh'
+[30.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.bash'
+[30.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.zsh'
+[30.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/colcon-core/packages/demo_cpp_service)
+[30.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_cpp_service)
+[30.425s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service' for CMake module files
+[30.425s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service' for CMake config files
+[30.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_cpp_service', 'cmake_prefix_path')
+[30.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/hook/cmake_prefix_path.ps1'
+[30.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/hook/cmake_prefix_path.dsv'
+[30.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/hook/cmake_prefix_path.sh'
+[30.428s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/lib'
+[30.428s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/bin'
+[30.428s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/lib/pkgconfig/demo_cpp_service.pc'
+[30.429s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/lib/python3.10/site-packages'
+[30.429s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/bin'
+[30.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.ps1'
+[30.430s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.dsv'
+[30.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.sh'
+[30.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.bash'
+[30.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/demo_cpp_service/package.zsh'
+[30.434s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_cpp_service/share/colcon-core/packages/demo_cpp_service)
+[30.434s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[30.435s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[30.435s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[30.435s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[30.448s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[30.448s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[30.448s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[30.473s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[30.473s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/local_setup.ps1'
+[30.474s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/_local_setup_util_ps1.py'
+[30.476s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/setup.ps1'
+[30.482s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/local_setup.sh'
+[30.483s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/_local_setup_util_sh.py'
+[30.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/setup.sh'
+[30.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/local_setup.bash'
+[30.485s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/setup.bash'
+[30.486s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/local_setup.zsh'
+[30.487s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/setup.zsh'

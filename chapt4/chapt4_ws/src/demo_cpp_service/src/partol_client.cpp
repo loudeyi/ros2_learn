@@ -14,7 +14,7 @@ using namespace std::chrono_literals; //可以使用 10s 100ms
 class PartolClient: public rclcpp::Node
 {
 public:
-    PartolClient() : Node("turtle_controller")
+    PartolClient() : Node("partol_client")
     {   
         srand(time(NULL)); //初始化随机数种子
         partol_client_ = this->create_client<Partol>("partol");
