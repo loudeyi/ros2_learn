@@ -1,0 +1,23 @@
+[0.046s] Invoking command in '/home/hzh/ros2_learn/chapt5/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt5/chapt5_ws/build/demo_cpp_tf -- -j4 -l4
+[0.177s] [35m[1mConsolidate compiler generated dependencies of target static_tf_broadcaster[0m
+[0.222s] [100%] Built target static_tf_broadcaster
+[0.583s] Invoked command in '/home/hzh/ros2_learn/chapt5/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt5/chapt5_ws/build/demo_cpp_tf -- -j4 -l4
+[0.617s] Invoking command in '/home/hzh/ros2_learn/chapt5/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt5/chapt5_ws/build/demo_cpp_tf
+[0.630s] -- Install configuration: ""
+[0.631s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster
+[0.633s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf
+[0.635s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf
+[0.637s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.sh
+[0.639s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.dsv
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.sh
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.dsv
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.bash
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.sh
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.zsh
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.dsv
+[0.643s] -- Installing: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv
+[0.643s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/packages/demo_cpp_tf
+[0.645s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig.cmake
+[0.647s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig-version.cmake
+[0.647s] -- Up-to-date: /home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.xml
+[0.648s] Invoked command in '/home/hzh/ros2_learn/chapt5/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt5/chapt5_ws/install/demo_python_tf:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt5/chapt5_ws/build/demo_cpp_tf
