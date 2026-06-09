@@ -1,0 +1,183 @@
+[0.016s] Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces -- -j4 -l4
+[0.105s] [  2%] Built target chapt4_interfaces__rs
+[0.105s] [  5%] Built target chapt4_interfaces__cpp
+[0.108s] [ 15%] Built target chapt4_interfaces__rosidl_generator_c
+[0.127s] [ 15%] Built target ament_cmake_python_copy_chapt4_interfaces
+[0.153s] [ 25%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c
+[0.156s] [ 35%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c
+[0.167s] [ 45%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.172s] [ 55%] Built target chapt4_interfaces__rosidl_typesupport_c
+[0.196s] [ 65%] Built target chapt4_interfaces__rosidl_typesupport_introspection_cpp
+[0.200s] [ 75%] Built target chapt4_interfaces__rosidl_typesupport_cpp
+[0.237s] [ 75%] Built target chapt4_interfaces
+[0.279s] [ 77%] Built target chapt4_interfaces__py
+[0.323s] [ 85%] Built target chapt4_interfaces__rosidl_generator_py
+[0.365s] [ 90%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.372s] [ 95%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.373s] [100%] Built target chapt4_interfaces__rosidl_typesupport_c__pyext
+[0.466s] running egg_info
+[0.467s] writing chapt4_interfaces.egg-info/PKG-INFO
+[0.468s] writing dependency_links to chapt4_interfaces.egg-info/dependency_links.txt
+[0.469s] writing top-level names to chapt4_interfaces.egg-info/top_level.txt
+[0.473s] reading manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[0.473s] writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[0.519s] [100%] Built target ament_cmake_python_build_chapt4_interfaces_egg
+[0.545s] Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces -- -j4 -l4
+[0.560s] Invoking command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces
+[0.573s] -- Install configuration: ""
+[0.573s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/rosidl_interfaces/chapt4_interfaces
+[0.573s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[0.573s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[0.573s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.h
+[0.573s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/partol.h
+[0.573s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[0.574s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__type_support.h
+[0.574s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.h
+[0.574s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__functions.h
+[0.574s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__functions.c
+[0.574s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.h
+[0.574s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__struct.h
+[0.575s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.c
+[0.575s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.h
+[0.575s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[0.575s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.575s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.sh
+[0.575s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.dsv
+[0.575s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so
+[0.575s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[0.575s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[0.576s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[0.576s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__rosidl_typesupport_fastrtps_c.h
+[0.576s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[0.576s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[0.576s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.576s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.576s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[0.576s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[0.576s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/partol.hpp
+[0.576s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.hpp
+[0.577s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[0.577s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__traits.hpp
+[0.577s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.hpp
+[0.577s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__builder.hpp
+[0.577s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.hpp
+[0.577s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__type_support.hpp
+[0.577s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__struct.hpp
+[0.577s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__traits.hpp
+[0.578s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__builder.hpp
+[0.578s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[0.578s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.578s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[0.578s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[0.578s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[0.578s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/dds_fastrtps
+[0.578s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[0.578s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__rosidl_typesupport_fastrtps_cpp.hpp
+[0.578s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[0.579s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.579s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.579s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[0.579s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[0.579s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[0.579s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.c
+[0.580s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__rosidl_typesupport_introspection_c.h
+[0.580s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[0.580s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__type_support.c
+[0.580s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[0.580s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.580s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so
+[0.580s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so
+[0.580s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[0.580s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[0.580s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[0.580s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[0.580s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.cpp
+[0.581s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__rosidl_typesupport_introspection_cpp.hpp
+[0.581s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/partol__type_support.cpp
+[0.582s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.582s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so
+[0.582s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.sh
+[0.582s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.dsv
+[0.582s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info
+[0.582s] -- Installing: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.582s] -- Installing: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.583s] -- Installing: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.583s] -- Installing: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.583s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces
+[0.583s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.583s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so
+[0.583s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py
+[0.583s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.583s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.584s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.584s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv
+[0.584s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_partol.py
+[0.584s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py
+[0.584s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_partol_s.c
+[0.584s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector_s.c
+[0.584s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py
+[0.584s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c
+[0.585s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.625s] Listing '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces'...
+[0.626s] Listing '/home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv'...
+[0.635s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.635s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.636s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.636s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so
+[0.636s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/rust_packages/chapt4_interfaces
+[0.636s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust
+[0.637s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/Cargo.toml
+[0.637s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/build.rs
+[0.637s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src
+[0.637s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src/lib.rs
+[0.637s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src/srv.rs
+[0.637s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src/srv
+[0.637s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src/srv/rmw.rs
+[0.638s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.idl
+[0.638s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Partol.idl
+[0.638s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.srv
+[0.638s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Request.msg
+[0.638s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Response.msg
+[0.638s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Partol.srv
+[0.639s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Partol_Request.msg
+[0.639s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/Partol_Response.msg
+[0.639s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/package_run_dependencies/chapt4_interfaces
+[0.639s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/parent_prefix_path/chapt4_interfaces
+[0.639s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.sh
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.dsv
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.sh
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.dsv
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.bash
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.sh
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.zsh
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.dsv
+[0.640s] -- Installing: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/packages/chapt4_interfaces
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport.cmake
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.640s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.642s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cppExport.cmake
+[0.642s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.642s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.642s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.642s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.642s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport.cmake
+[0.642s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.642s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.643s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.643s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport.cmake
+[0.643s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.644s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport.cmake
+[0.644s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.644s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.644s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.644s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.644s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.644s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.644s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.644s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.644s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig.cmake
+[0.644s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig-version.cmake
+[0.644s] -- Up-to-date: /home/hzh/ros2_learn/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.xml
+[0.647s] Invoked command in '/home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt4/chapt4_ws/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt4/chapt4_ws/build/chapt4_interfaces

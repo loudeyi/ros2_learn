@@ -83,6 +83,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/demo_cpp_service" TYPE DIRECTORY FILES "/home/hzh/ros2_learn/chapt4/chapt4_ws/src/demo_cpp_service/launch")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/hzh/ros2_learn/chapt4/chapt4_ws/build/demo_cpp_service/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service")
 endif()
 
