@@ -47,6 +47,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/hzh/ros2_learn/chapt6/chapt6_ws/src/fishbot_description/launch"
     "/home/hzh/ros2_learn/chapt6/chapt6_ws/src/fishbot_description/urdf"
     "/home/hzh/ros2_learn/chapt6/chapt6_ws/src/fishbot_description/config"
+    "/home/hzh/ros2_learn/chapt6/chapt6_ws/src/fishbot_description/world"
     )
 endif()
 
