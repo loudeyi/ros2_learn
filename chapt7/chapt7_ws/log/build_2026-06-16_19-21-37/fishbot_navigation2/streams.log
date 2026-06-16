@@ -1,0 +1,27 @@
+[0.871s] Invoking command in '/home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_navigation2 -- -j4 -l4
+[1.066s] Invoked command in '/home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_navigation2 -- -j4 -l4
+[1.131s] Invoking command in '/home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_navigation2
+[1.176s] -- Install configuration: ""
+[1.176s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[1.176s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[1.182s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/config
+[1.182s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml
+[1.182s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[1.182s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.pgm
+[1.182s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.yaml
+[1.183s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[1.183s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[1.183s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[1.183s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[1.183s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[1.183s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[1.183s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[1.187s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[1.187s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[1.187s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[1.188s] -- Installing: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[1.191s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[1.191s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[1.191s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[1.191s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[1.211s] Invoked command in '/home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_navigation2

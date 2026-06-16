@@ -1,0 +1,5 @@
+  File "/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/partol_node.py", line 41
+    cv2.imwrite(f'{self.img_save_path_}img_{pose.translation.x:3.2f}_{
+                ^
+SyntaxError: unterminated string literal (detected at line 41)
+

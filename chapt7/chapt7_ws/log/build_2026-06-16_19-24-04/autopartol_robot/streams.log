@@ -1,0 +1,22 @@
+[2.262s] Invoking command in '/home/hzh/ros2_learn/chapt7/chapt7_ws/src/autopartol_robot': PYTHONPATH=/home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_robot/build install --record /home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data
+[2.963s] running egg_info
+[2.966s] writing ../../build/autopartol_robot/autopartol_robot.egg-info/PKG-INFO
+[2.966s] writing dependency_links to ../../build/autopartol_robot/autopartol_robot.egg-info/dependency_links.txt
+[2.968s] writing entry points to ../../build/autopartol_robot/autopartol_robot.egg-info/entry_points.txt
+[2.973s] writing requirements to ../../build/autopartol_robot/autopartol_robot.egg-info/requires.txt
+[2.973s] writing top-level names to ../../build/autopartol_robot/autopartol_robot.egg-info/top_level.txt
+[2.978s] reading manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[2.978s] writing manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[2.980s] running build
+[2.980s] running build_py
+[2.980s] running install
+[2.984s] running install_lib
+[2.988s] running install_data
+[2.989s] copying config/partol_config.yaml -> /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot/share/autopartol_robot/config
+[2.992s] running install_egg_info
+[2.994s] removing '/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.998s] Copying ../../build/autopartol_robot/autopartol_robot.egg-info to /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info
+[2.998s] running install_scripts
+[3.074s] Installing partol_node script to /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot/lib/autopartol_robot
+[3.074s] writing list of installed files to '/home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_robot/install.log'
+[3.255s] Invoked command in '/home/hzh/ros2_learn/chapt7/chapt7_ws/src/autopartol_robot' returned '0': PYTHONPATH=/home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_robot/build install --record /home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data

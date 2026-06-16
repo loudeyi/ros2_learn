@@ -1,0 +1,161 @@
+[0.091s] Invoking command in '/home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_interfaces -- -j4 -l4
+[2.214s] [  3%] Built target autopartol_interfaces__cpp
+[2.215s] [  3%] Built target ament_cmake_python_copy_autopartol_interfaces
+[2.220s] [ 12%] Built target autopartol_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.221s] [ 21%] Built target autopartol_interfaces__rosidl_typesupport_introspection_cpp
+[2.221s] [ 31%] Built target autopartol_interfaces__rosidl_typesupport_cpp
+[2.221s] running egg_info
+[2.221s] writing autopartol_interfaces.egg-info/PKG-INFO
+[2.221s] writing dependency_links to autopartol_interfaces.egg-info/dependency_links.txt
+[2.221s] writing top-level names to autopartol_interfaces.egg-info/top_level.txt
+[2.221s] reading manifest file 'autopartol_interfaces.egg-info/SOURCES.txt'
+[2.221s] writing manifest file 'autopartol_interfaces.egg-info/SOURCES.txt'
+[2.221s] [ 31%] Built target ament_cmake_python_build_autopartol_interfaces_egg
+[2.221s] [ 40%] Built target autopartol_interfaces__rosidl_generator_c
+[2.221s] [ 43%] Built target autopartol_interfaces__rs
+[2.222s] [ 53%] Built target autopartol_interfaces__rosidl_typesupport_c
+[2.222s] [ 62%] Built target autopartol_interfaces__rosidl_typesupport_introspection_c
+[2.377s] [ 71%] Built target autopartol_interfaces__rosidl_typesupport_fastrtps_c
+[2.546s] [ 71%] Built target autopartol_interfaces
+[2.790s] [ 75%] Built target autopartol_interfaces__py
+[2.955s] [ 81%] Built target autopartol_interfaces__rosidl_generator_py
+[3.069s] [ 87%] Built target autopartol_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.297s] [ 93%] Built target autopartol_interfaces__rosidl_typesupport_c__pyext
+[3.511s] [100%] Built target autopartol_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.610s] Invoked command in '/home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_interfaces -- -j4 -l4
+[3.622s] Invoking command in '/home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_interfaces
+[3.692s] -- Install configuration: ""
+[3.692s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/ament_index/resource_index/rosidl_interfaces/autopartol_interfaces
+[3.692s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces
+[3.692s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv
+[3.693s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/speech_text.h
+[3.693s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail
+[3.693s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__functions.c
+[3.694s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__functions.h
+[3.696s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__type_support.h
+[3.696s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__struct.h
+[3.698s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg
+[3.707s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.716s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/environment/library_path.sh
+[3.716s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/environment/library_path.dsv
+[3.720s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_generator_c.so
+[3.724s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces
+[3.729s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv
+[3.729s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail
+[3.734s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_c.h
+[3.734s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg
+[3.734s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.734s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.734s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces
+[3.734s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv
+[3.734s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail
+[3.734s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__type_support.c
+[3.734s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_c.h
+[3.734s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg
+[3.741s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.743s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_introspection_c.so
+[3.748s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_c.so
+[3.753s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces
+[3.753s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv
+[3.753s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail
+[3.759s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__type_support.hpp
+[3.761s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__traits.hpp
+[3.772s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__builder.hpp
+[3.774s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__struct.hpp
+[3.778s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/speech_text.hpp
+[3.782s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg
+[3.782s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.786s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces
+[3.786s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv
+[3.786s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail
+[3.786s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/dds_fastrtps
+[3.786s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_cpp.hpp
+[3.790s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg
+[3.794s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.794s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.799s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces
+[3.800s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv
+[3.804s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail
+[3.805s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__type_support.cpp
+[3.808s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_cpp.hpp
+[3.811s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.815s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_cpp.so
+[3.817s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/environment/pythonpath.sh
+[3.818s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/environment/pythonpath.dsv
+[3.822s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info
+[3.825s] -- Installing: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.825s] -- Installing: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.826s] -- Installing: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.826s] -- Installing: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.826s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces
+[3.826s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/libautopartol_interfaces__rosidl_generator_py.so
+[3.827s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.827s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.827s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/__init__.py
+[3.835s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.837s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.838s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_c.c
+[3.838s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.838s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv
+[3.838s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv/_speech_text_s.c
+[3.838s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv/__init__.py
+[3.844s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv/_speech_text.py
+[4.257s] Listing '/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces'...
+[4.257s] Listing '/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv'...
+[4.308s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.313s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.314s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.318s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_generator_py.so
+[4.325s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/ament_index/resource_index/rust_packages/autopartol_interfaces
+[4.330s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/rust
+[4.337s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/rust/Cargo.toml
+[4.342s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/rust/build.rs
+[4.342s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/rust/src
+[4.343s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/rust/src/lib.rs
+[4.343s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/rust/src/srv.rs
+[4.343s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/rust/src/srv
+[4.343s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/rust/src/srv/rmw.rs
+[4.343s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/srv/SpeechText.idl
+[4.343s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/srv/SpeechText.srv
+[4.343s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/srv/SpeechText_Request.msg
+[4.343s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/srv/SpeechText_Response.msg
+[4.343s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/ament_index/resource_index/package_run_dependencies/autopartol_interfaces
+[4.347s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/ament_index/resource_index/parent_prefix_path/autopartol_interfaces
+[4.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/environment/ament_prefix_path.sh
+[4.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/environment/ament_prefix_path.dsv
+[4.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/environment/path.sh
+[4.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/environment/path.dsv
+[4.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/local_setup.bash
+[4.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/local_setup.sh
+[4.357s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/local_setup.zsh
+[4.357s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/local_setup.dsv
+[4.358s] -- Installing: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/package.dsv
+[4.358s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/ament_index/resource_index/packages/autopartol_interfaces
+[4.368s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_cExport.cmake
+[4.369s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.377s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.378s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.378s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.383s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.385s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_cExport.cmake
+[4.385s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.391s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_cppExport.cmake
+[4.395s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.397s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.404s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.406s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.407s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_cppExport.cmake
+[4.408s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.411s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_pyExport.cmake
+[4.412s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.417s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.425s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.426s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.426s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.429s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.430s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.430s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.430s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfacesConfig.cmake
+[4.431s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfacesConfig-version.cmake
+[4.431s] -- Up-to-date: /home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_interfaces/share/autopartol_interfaces/package.xml
+[4.447s] Invoked command in '/home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/autopartol_robot:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt7/chapt7_ws/build/autopartol_interfaces
