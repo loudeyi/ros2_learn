@@ -1,0 +1,28 @@
+[0.947s] Invoking command in '/home/hzh/ros2_learn/chapt7/chapt7_ws/src/fishbot_application': PYTHONPATH=/home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_application/build install --record /home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_application/install.log --single-version-externally-managed install_data
+[1.223s] running egg_info
+[1.225s] writing ../../build/fishbot_application/fishbot_application.egg-info/PKG-INFO
+[1.225s] writing dependency_links to ../../build/fishbot_application/fishbot_application.egg-info/dependency_links.txt
+[1.226s] writing entry points to ../../build/fishbot_application/fishbot_application.egg-info/entry_points.txt
+[1.227s] writing requirements to ../../build/fishbot_application/fishbot_application.egg-info/requires.txt
+[1.227s] writing top-level names to ../../build/fishbot_application/fishbot_application.egg-info/top_level.txt
+[1.229s] reading manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.230s] adding license file 'LICENSE'
+[1.230s] writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[1.232s] running build
+[1.232s] running build_py
+[1.232s] copying fishbot_application/waypoint_follower.py -> /home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_application/build/lib/fishbot_application
+[1.234s] running install
+[1.234s] running install_lib
+[1.235s] copying /home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_application/build/lib/fishbot_application/waypoint_follower.py -> /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application
+[1.236s] byte-compiling /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application/waypoint_follower.py to waypoint_follower.cpython-310.pyc
+[1.237s] running install_data
+[1.237s] running install_egg_info
+[1.240s] removing '/home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info' (and everything under it)
+[1.241s] Copying ../../build/fishbot_application/fishbot_application.egg-info to /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages/fishbot_application-0.0.0-py3.10.egg-info
+[1.242s] running install_scripts
+[1.270s] Installing get_robot_pose script to /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application/lib/fishbot_application
+[1.271s] Installing init_robot_pose script to /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application/lib/fishbot_application
+[1.272s] Installing nav_to_pose script to /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application/lib/fishbot_application
+[1.272s] Installing waypoint_follower script to /home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application/lib/fishbot_application
+[1.273s] writing list of installed files to '/home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_application/install.log'
+[1.318s] Invoked command in '/home/hzh/ros2_learn/chapt7/chapt7_ws/src/fishbot_application' returned '0': PYTHONPATH=/home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt7/chapt7_ws/install/fishbot_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_application/build install --record /home/hzh/ros2_learn/chapt7/chapt7_ws/build/fishbot_application/install.log --single-version-externally-managed install_data
