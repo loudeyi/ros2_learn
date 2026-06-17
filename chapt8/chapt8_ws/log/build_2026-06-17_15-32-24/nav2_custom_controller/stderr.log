@@ -1,0 +1,11 @@
+[01m[K/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_custom_controller::CustomController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:51:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   51 |     [01;35m[Kconst geometry_msgs::msg::PoseStamped &pose[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kdouble nav2_custom_controller::CustomController::calculateAngleDifference(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:122:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  122 |     [01;35m[Kconst geometry_msgs::msg::PoseStamped &current_pose[m[K,
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:123:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  123 |     [01;35m[Kconst geometry_msgs::msg::PoseStamped &target_pose[m[K) {
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K

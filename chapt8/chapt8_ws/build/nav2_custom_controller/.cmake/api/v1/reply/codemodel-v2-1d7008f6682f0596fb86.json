@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8b88a485a74c34754fc0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav2_custom_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_custom_controller_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_custom_controller_plugin-ea09362f8ef74d00fdd5.json",
+					"name" : "nav2_custom_controller_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_custom_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_custom_controller_uninstall-447f91072f8dd61a2eab.json",
+					"name" : "nav2_custom_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-94eb1c53ce356dbc5e39.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller",
+		"source" : "/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

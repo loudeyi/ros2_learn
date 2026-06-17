@@ -1,0 +1,91 @@
+[0.045s] Invoking command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_application:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller
+[0.400s] -- The C compiler identification is GNU 11.4.0
+[0.580s] -- The CXX compiler identification is GNU 11.4.0
+[0.611s] -- Detecting C compiler ABI info
+[0.892s] -- Detecting C compiler ABI info - done
+[0.908s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.909s] -- Detecting C compile features
+[0.910s] -- Detecting C compile features - done
+[0.930s] -- Detecting CXX compiler ABI info
+[1.330s] -- Detecting CXX compiler ABI info - done
+[1.355s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.355s] -- Detecting CXX compile features
+[1.355s] -- Detecting CXX compile features - done
+[1.444s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.928s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.166s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[2.290s] -- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)
+[2.403s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.421s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.452s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.500s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.697s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.707s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.797s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.927s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.937s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.965s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.970s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.986s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.002s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.035s] -- Looking for pthread.h
+[3.186s] -- Looking for pthread.h - found
+[3.186s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.319s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.322s] -- Found Threads: TRUE  
+[4.068s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.068s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.275s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.478s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.480s] -- Configured cppcheck include dirs: /home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller/include
+[4.480s] -- Configured cppcheck exclude dirs and/or files: 
+[4.488s] -- Added test 'lint_cmake' to check CMake code style
+[4.491s] -- Added test 'uncrustify' to check C / C++ code style
+[4.492s] -- Configured uncrustify additional arguments: 
+[4.494s] -- Added test 'xmllint' to check XML markup files
+[4.500s] -- Configuring done
+[4.604s] -- Generating done
+[4.616s] -- Build files have been written to: /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller
+[4.635s] Invoked command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_application:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller
+[4.639s] Invoking command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_application:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller -- -j4 -l4
+[4.733s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_controller_plugin.dir/src/custom_controller.cpp.o[0m
+[10.022s] [01m[K/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_custom_controller::CustomController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[10.023s] [01m[K/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:51:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.023s]    51 |     [01;35m[Kconst geometry_msgs::msg::PoseStamped &pose[m[K,
+[10.023s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[10.023s] [01m[K/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kdouble nav2_custom_controller::CustomController::calculateAngleDifference(const PoseStamped&, const PoseStamped&)[m[K’:
+[10.023s] [01m[K/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:122:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.023s]   122 |     [01;35m[Kconst geometry_msgs::msg::PoseStamped &current_pose[m[K,
+[10.023s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[10.023s] [01m[K/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:123:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[10.024s]   123 |     [01;35m[Kconst geometry_msgs::msg::PoseStamped &target_pose[m[K) {
+[10.025s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[12.608s] [100%] [32m[1mLinking CXX shared library libnav2_custom_controller_plugin.so[0m
+[13.148s] [100%] Built target nav2_custom_controller_plugin
+[13.173s] Invoked command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_application:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller -- -j4 -l4
+[13.179s] Invoking command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_application:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller
+[13.190s] -- Install configuration: ""
+[13.190s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/lib/libnav2_custom_controller_plugin.so
+[13.192s] -- Set runtime path of "/home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/lib/libnav2_custom_controller_plugin.so" to ""
+[13.194s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/include/
+[13.195s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/include//nav2_custom_controller
+[13.195s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/include//nav2_custom_controller/custom_controller.hpp
+[13.195s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/nav2_custom_controller.xml
+[13.195s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/package_run_dependencies/nav2_custom_controller
+[13.196s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/parent_prefix_path/nav2_custom_controller
+[13.196s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/ament_prefix_path.sh
+[13.196s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/ament_prefix_path.dsv
+[13.196s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/path.sh
+[13.196s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/path.dsv
+[13.196s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.bash
+[13.197s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.sh
+[13.197s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.zsh
+[13.197s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.dsv
+[13.197s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.dsv
+[13.197s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/packages/nav2_custom_controller
+[13.197s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_controller
+[13.197s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/cmake/nav2_custom_controllerConfig.cmake
+[13.198s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/cmake/nav2_custom_controllerConfig-version.cmake
+[13.199s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.xml
+[13.203s] Invoked command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_application:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller

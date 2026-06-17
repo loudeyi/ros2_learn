@@ -1,0 +1,31 @@
+[0.053s] Invoking command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_application:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller -- -j4 -l4
+[0.266s] [35m[1mConsolidate compiler generated dependencies of target nav2_custom_controller_plugin[0m
+[0.394s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_controller_plugin.dir/src/custom_controller.cpp.o[0m
+[11.756s] [100%] [32m[1mLinking CXX shared library libnav2_custom_controller_plugin.so[0m
+[12.305s] [100%] Built target nav2_custom_controller_plugin
+[12.335s] Invoked command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_application:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller -- -j4 -l4
+[12.337s] Invoking command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_application:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller
+[12.355s] -- Install configuration: ""
+[12.355s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/lib/libnav2_custom_controller_plugin.so
+[12.356s] -- Set runtime path of "/home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/lib/libnav2_custom_controller_plugin.so" to ""
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/include/
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/include//nav2_custom_controller
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/include//nav2_custom_controller/custom_controller.hpp
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/nav2_custom_controller.xml
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/package_run_dependencies/nav2_custom_controller
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/parent_prefix_path/nav2_custom_controller
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/ament_prefix_path.sh
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/ament_prefix_path.dsv
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/path.sh
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/path.dsv
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.bash
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.sh
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.zsh
+[12.356s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.dsv
+[12.356s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.dsv
+[12.359s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/packages/nav2_custom_controller
+[12.360s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_controller
+[12.360s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/cmake/nav2_custom_controllerConfig.cmake
+[12.360s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/cmake/nav2_custom_controllerConfig-version.cmake
+[12.360s] -- Up-to-date: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.xml
+[12.364s] Invoked command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_application:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_controller
