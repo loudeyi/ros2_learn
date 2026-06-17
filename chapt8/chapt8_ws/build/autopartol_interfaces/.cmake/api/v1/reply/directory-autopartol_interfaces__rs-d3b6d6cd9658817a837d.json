@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "autopartol_interfaces__rs",
+		"source" : "/home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_interfaces/autopartol_interfaces__rs"
+	}
+}

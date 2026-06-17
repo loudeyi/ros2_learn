@@ -1,0 +1,77 @@
+[0.965s] Invoking command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt8/chapt8_ws/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description
+[1.096s] -- The C compiler identification is GNU 11.4.0
+[1.248s] -- The CXX compiler identification is GNU 11.4.0
+[1.261s] -- Detecting C compiler ABI info
+[1.469s] -- Detecting C compiler ABI info - done
+[1.487s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.488s] -- Detecting C compile features
+[1.495s] -- Detecting C compile features - done
+[1.512s] -- Detecting CXX compiler ABI info
+[1.777s] -- Detecting CXX compiler ABI info - done
+[1.786s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.788s] -- Detecting CXX compile features
+[1.790s] -- Detecting CXX compile features - done
+[1.791s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.204s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.443s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.652s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.652s] -- Added test 'lint_cmake' to check CMake code style
+[2.652s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.658s] -- Added test 'xmllint' to check XML markup files
+[2.659s] -- Configuring done
+[2.668s] -- Generating done
+[2.674s] -- Build files have been written to: /home/hzh/ros2_learn/chapt8/chapt8_ws/build/fishbot_description
+[2.687s] Invoked command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt8/chapt8_ws/src/fishbot_description -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description
+[2.690s] Invoking command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt8/chapt8_ws/build/fishbot_description -- -j4 -l4
+[2.851s] Invoked command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt8/chapt8_ws/build/fishbot_description -- -j4 -l4
+[2.882s] Invoking command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/fishbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt8/chapt8_ws/build/fishbot_description
+[2.904s] -- Install configuration: ""
+[2.904s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/launch
+[2.904s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/launch/display_robot.launch.py
+[2.904s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/launch/gazebo_sim.launch.py
+[2.905s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/launch/__pycache__
+[2.905s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/launch/__pycache__/display_robot.launch.cpython-310.pyc
+[2.905s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf
+[2.907s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.urdf
+[2.907s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.pdf
+[2.907s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.gv
+[2.910s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/first_robot.xacro
+[2.912s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot
+[2.913s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator
+[2.913s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/caster.urdf.xacro
+[2.913s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/actuator/wheel.urdf.xacro
+[2.913s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/common_inertia.xacro
+[2.913s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor
+[2.914s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/laser.urdf.xacro
+[2.914s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/imu.urdf.xacro
+[2.915s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/sensor/camera.urdf.xacro
+[2.915s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/base.urdf.xacro
+[2.918s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.ros2_control.xacro
+[2.918s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/fishbot.urdf.xacro
+[2.918s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins
+[2.919s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[2.919s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[2.919s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/config
+[2.920s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/config/display_robot_model.rviz
+[2.920s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/config/fishbot_ros2_controller.yaml
+[2.921s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/world
+[2.921s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/world/custom_room.world
+[2.923s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/world/room
+[2.924s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/world/room/model.sdf
+[2.924s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/world/room/model.config
+[2.924s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/ament_index/resource_index/package_run_dependencies/fishbot_description
+[2.924s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/ament_index/resource_index/parent_prefix_path/fishbot_description
+[2.926s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.sh
+[2.927s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/environment/ament_prefix_path.dsv
+[2.928s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/environment/path.sh
+[2.931s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/environment/path.dsv
+[2.931s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/local_setup.bash
+[2.931s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/local_setup.sh
+[2.934s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/local_setup.zsh
+[2.934s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/local_setup.dsv
+[2.935s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.dsv
+[2.936s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/ament_index/resource_index/packages/fishbot_description
+[2.936s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig.cmake
+[2.937s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/cmake/fishbot_descriptionConfig-version.cmake
+[2.942s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/fishbot_description/share/fishbot_description/package.xml
+[2.943s] Invoked command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/fishbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt8/chapt8_ws/build/fishbot_description

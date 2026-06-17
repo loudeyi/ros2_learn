@@ -1,0 +1,87 @@
+[0.036s] Invoking command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner
+[0.175s] -- The C compiler identification is GNU 11.4.0
+[0.301s] -- The CXX compiler identification is GNU 11.4.0
+[0.313s] -- Detecting C compiler ABI info
+[0.555s] -- Detecting C compiler ABI info - done
+[0.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.586s] -- Detecting C compile features
+[0.590s] -- Detecting C compile features - done
+[0.602s] -- Detecting CXX compiler ABI info
+[0.903s] -- Detecting CXX compiler ABI info - done
+[0.913s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.914s] -- Detecting CXX compile features
+[0.914s] -- Detecting CXX compile features - done
+[0.919s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.270s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.761s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[1.916s] -- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)
+[2.091s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.108s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.149s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.217s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.303s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.723s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.777s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.990s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.416s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.442s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.531s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.547s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.584s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[3.647s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.701s] -- Looking for pthread.h
+[4.087s] -- Looking for pthread.h - found
+[4.094s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.436s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.436s] -- Found Threads: TRUE  
+[5.929s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.929s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.206s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.390s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.390s] -- Configured cppcheck include dirs: /home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_planner/include
+[6.390s] -- Configured cppcheck exclude dirs and/or files: 
+[6.392s] -- Added test 'lint_cmake' to check CMake code style
+[6.394s] -- Added test 'uncrustify' to check C / C++ code style
+[6.394s] -- Configured uncrustify additional arguments: 
+[6.396s] -- Added test 'xmllint' to check XML markup files
+[6.399s] -- Configuring done
+[6.856s] -- Generating done
+[6.872s] -- Build files have been written to: /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_planner
+[6.915s] Invoked command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_planner -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner
+[6.916s] Invoking command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_planner -- -j4 -l4
+[7.034s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[13.006s] [01m[K/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[13.007s] [01m[K/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:48:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.007s]    48 |     CustomPlanner::createPlan([01;35m[Kconst geometry_msgs::msg::PoseStamped &start[m[K,
+[13.007s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[13.007s] [01m[K/home/hzh/ros2_learn/chapt8/chapt8_ws/src/nav2_custom_planner/src/nav2_custom_planner.cpp:49:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.007s]    49 |                               [01;35m[Kconst geometry_msgs::msg::PoseStamped &goal[m[K)
+[13.007s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[15.401s] [100%] [32m[1mLinking CXX shared library libnav2_custom_planner_plugin.so[0m
+[15.999s] [100%] Built target nav2_custom_planner_plugin
+[16.020s] Invoked command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_planner -- -j4 -l4
+[16.022s] Invoking command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_planner
+[16.036s] -- Install configuration: ""
+[16.036s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so
+[16.037s] -- Set runtime path of "/home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so" to ""
+[16.037s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/include/
+[16.037s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/include//nav2_custom_planner
+[16.037s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/include//nav2_custom_planner/nav2_custom_planner.hpp
+[16.038s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/custom_planner_plugin.xml
+[16.038s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/package_run_dependencies/nav2_custom_planner
+[16.039s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/parent_prefix_path/nav2_custom_planner
+[16.039s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.sh
+[16.039s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.dsv
+[16.040s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.sh
+[16.040s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.dsv
+[16.040s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.bash
+[16.040s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.sh
+[16.040s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.zsh
+[16.043s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.dsv
+[16.043s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv
+[16.043s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/packages/nav2_custom_planner
+[16.043s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_planner
+[16.043s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig.cmake
+[16.043s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig-version.cmake
+[16.043s] -- Installing: /home/hzh/ros2_learn/chapt8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.xml
+[16.048s] Invoked command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt8/chapt8_ws/build/nav2_custom_planner

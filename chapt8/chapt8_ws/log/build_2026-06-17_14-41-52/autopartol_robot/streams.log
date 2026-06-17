@@ -1,0 +1,45 @@
+[2.537s] Invoking command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/src/autopartol_robot': PYTHONPATH=/home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/build install --record /home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data
+[3.171s] running egg_info
+[3.174s] creating ../../build/autopartol_robot/autopartol_robot.egg-info
+[3.175s] writing ../../build/autopartol_robot/autopartol_robot.egg-info/PKG-INFO
+[3.177s] writing dependency_links to ../../build/autopartol_robot/autopartol_robot.egg-info/dependency_links.txt
+[3.177s] writing entry points to ../../build/autopartol_robot/autopartol_robot.egg-info/entry_points.txt
+[3.181s] writing requirements to ../../build/autopartol_robot/autopartol_robot.egg-info/requires.txt
+[3.181s] writing top-level names to ../../build/autopartol_robot/autopartol_robot.egg-info/top_level.txt
+[3.181s] writing manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[3.188s] reading manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[3.191s] writing manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[3.193s] running build
+[3.194s] running build_py
+[3.195s] creating /home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/build
+[3.195s] creating /home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/build/lib
+[3.195s] creating /home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/build/lib/autopartol_robot
+[3.196s] copying autopartol_robot/speaker.py -> /home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/build/lib/autopartol_robot
+[3.196s] copying autopartol_robot/__init__.py -> /home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/build/lib/autopartol_robot
+[3.196s] copying autopartol_robot/partol_node.py -> /home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/build/lib/autopartol_robot
+[3.198s] running install
+[3.199s] running install_lib
+[3.203s] creating /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[3.203s] copying /home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/build/lib/autopartol_robot/speaker.py -> /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[3.204s] copying /home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/build/lib/autopartol_robot/__init__.py -> /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[3.205s] copying /home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/build/lib/autopartol_robot/partol_node.py -> /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[3.207s] byte-compiling /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/speaker.py to speaker.cpython-310.pyc
+[3.208s] byte-compiling /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/__init__.py to __init__.cpython-310.pyc
+[3.209s] byte-compiling /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/partol_node.py to partol_node.cpython-310.pyc
+[3.211s] running install_data
+[3.212s] creating /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/share/ament_index
+[3.213s] creating /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/share/ament_index/resource_index
+[3.214s] creating /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/share/ament_index/resource_index/packages
+[3.215s] copying resource/autopartol_robot -> /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/share/ament_index/resource_index/packages
+[3.215s] copying package.xml -> /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/share/autopartol_robot
+[3.215s] creating /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/share/autopartol_robot/launch
+[3.216s] copying launch/autopartol.launch.py -> /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/share/autopartol_robot/launch
+[3.216s] creating /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/share/autopartol_robot/config
+[3.219s] copying config/partol_config.yaml -> /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/share/autopartol_robot/config
+[3.219s] running install_egg_info
+[3.221s] Copying ../../build/autopartol_robot/autopartol_robot.egg-info to /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info
+[3.225s] running install_scripts
+[3.294s] Installing partol_node script to /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/lib/autopartol_robot
+[3.296s] Installing speaker script to /home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/lib/autopartol_robot
+[3.300s] writing list of installed files to '/home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/install.log'
+[3.414s] Invoked command in '/home/hzh/ros2_learn/chapt8/chapt8_ws/src/autopartol_robot' returned '0': PYTHONPATH=/home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt8/chapt8_ws/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/build install --record /home/hzh/ros2_learn/chapt8/chapt8_ws/build/autopartol_robot/install.log --single-version-externally-managed install_data
