@@ -1,0 +1,24 @@
+[0.036s] Invoking command in '/home/hzh/ros2_learn/chapt8/learn_pluginlib/build/motion_control_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt8/learn_pluginlib/src/motion_control_system -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt8/learn_pluginlib/install/motion_control_system
+[0.404s] -- The C compiler identification is GNU 11.4.0
+[0.712s] -- The CXX compiler identification is GNU 11.4.0
+[0.755s] -- Detecting C compiler ABI info
+[0.948s] -- Detecting C compiler ABI info - done
+[0.956s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.958s] -- Detecting C compile features
+[0.961s] -- Detecting C compile features - done
+[0.970s] -- Detecting CXX compiler ABI info
+[1.148s] -- Detecting CXX compiler ABI info - done
+[1.157s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.158s] -- Detecting CXX compile features
+[1.158s] -- Detecting CXX compile features - done
+[1.190s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.498s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.800s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[1.937s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.127s] [31mCMake Error at CMakeLists.txt:40 (pluginlib_export_plugin_description_files):
+[2.127s]   Unknown CMake command "pluginlib_export_plugin_description_files".
+[2.127s] 
+[2.127s] [0m
+[2.127s] -- Configuring incomplete, errors occurred!
+[2.127s] See also "/home/hzh/ros2_learn/chapt8/learn_pluginlib/build/motion_control_system/CMakeFiles/CMakeOutput.log".
+[2.142s] Invoked command in '/home/hzh/ros2_learn/chapt8/learn_pluginlib/build/motion_control_system' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt8/learn_pluginlib/src/motion_control_system -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt8/learn_pluginlib/install/motion_control_system

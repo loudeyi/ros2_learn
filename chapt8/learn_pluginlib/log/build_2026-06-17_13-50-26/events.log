@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.004096] (motion_control_system) JobQueued: {'identifier': 'motion_control_system', 'dependencies': OrderedDict()}
+[0.004286] (motion_control_system) JobStarted: {'identifier': 'motion_control_system'}
+[0.037262] (motion_control_system) JobProgress: {'identifier': 'motion_control_system', 'progress': 'cmake'}
+[0.038686] (motion_control_system) Command: {'cmd': ['/usr/bin/cmake', '/home/hzh/ros2_learn/chapt8/learn_pluginlib/src/motion_control_system', '-DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt8/learn_pluginlib/install/motion_control_system'], 'cwd': '/home/hzh/ros2_learn/chapt8/learn_pluginlib/build/motion_control_system', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'hzh'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hzh'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/hzh/ros2_learn/chapt8'), ('TERM_PROGRAM_VERSION', '1.124.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2058'), ('BUNDLED_DEBUGPY_PATH', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a5c4e282bb4ec756cb6ee0f66a3225f8'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '48625'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hzh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hzh-virtual-machine:@/tmp/.ICE-unix/2058,unix/hzh-virtual-machine:/tmp/.ICE-unix/2058'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82979882_4b04_44e2_8ea6_c25ee2424ce5'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-b029e6cf348091da.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/hzh/.config/Code/User/workspaceStorage/45dcdffa972e0833c12097a6b70f4f22/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LVZFR3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7ec07ca6d2.sock'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hzh/ros2_learn/chapt8/learn_pluginlib/build/motion_control_system'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', 'f681d4c3a6f6bdbd72601dc6a8167a27'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a5c4e282bb4ec756cb6ee0f66a3225f8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101354] (-) TimerEvent: {}
+[0.208194] (-) TimerEvent: {}
+[0.309340] (-) TimerEvent: {}
+[0.408503] (motion_control_system) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.412181] (-) TimerEvent: {}
+[0.512556] (-) TimerEvent: {}
+[0.614515] (-) TimerEvent: {}
+[0.714993] (-) TimerEvent: {}
+[0.715814] (motion_control_system) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.759387] (motion_control_system) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.815650] (-) TimerEvent: {}
+[0.916201] (-) TimerEvent: {}
+[0.952180] (motion_control_system) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.959626] (motion_control_system) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.962187] (motion_control_system) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.964895] (motion_control_system) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.973721] (motion_control_system) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.017666] (-) TimerEvent: {}
+[1.119798] (-) TimerEvent: {}
+[1.151779] (motion_control_system) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.161585] (motion_control_system) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.161789] (motion_control_system) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.162220] (motion_control_system) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.193972] (motion_control_system) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.220287] (-) TimerEvent: {}
+[1.321395] (-) TimerEvent: {}
+[1.423498] (-) TimerEvent: {}
+[1.502210] (motion_control_system) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.523733] (-) TimerEvent: {}
+[1.624223] (-) TimerEvent: {}
+[1.725038] (-) TimerEvent: {}
+[1.803015] (motion_control_system) StdoutLine: {'line': b'-- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[1.825633] (-) TimerEvent: {}
+[1.926198] (-) TimerEvent: {}
+[1.940942] (motion_control_system) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.028375] (-) TimerEvent: {}
+[2.129222] (-) TimerEvent: {}
+[2.131212] (motion_control_system) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:40 (pluginlib_export_plugin_description_files):\n'}
+[2.131414] (motion_control_system) StderrLine: {'line': b'  Unknown CMake command "pluginlib_export_plugin_description_files".\n'}
+[2.131472] (motion_control_system) StderrLine: {'line': b'\n'}
+[2.131516] (motion_control_system) StderrLine: {'line': b'\x1b[0m\n'}
+[2.131626] (motion_control_system) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.131688] (motion_control_system) StdoutLine: {'line': b'See also "/home/hzh/ros2_learn/chapt8/learn_pluginlib/build/motion_control_system/CMakeFiles/CMakeOutput.log".\n'}
+[2.144034] (motion_control_system) CommandEnded: {'returncode': 1}
+[2.227442] (motion_control_system) JobEnded: {'identifier': 'motion_control_system', 'rc': 1}
+[2.229611] (-) TimerEvent: {}
+[2.240615] (-) EventReactorShutdown: {}
