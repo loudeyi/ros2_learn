@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.002326] (learn_qos_cpp) JobQueued: {'identifier': 'learn_qos_cpp', 'dependencies': OrderedDict()}
+[0.003009] (learn_qos_py) JobQueued: {'identifier': 'learn_qos_py', 'dependencies': OrderedDict()}
+[0.003148] (learn_qos_cpp) JobStarted: {'identifier': 'learn_qos_cpp'}
+[0.015897] (learn_qos_py) JobStarted: {'identifier': 'learn_qos_py'}
+[0.044380] (learn_qos_cpp) JobProgress: {'identifier': 'learn_qos_cpp', 'progress': 'cmake'}
+[0.044541] (learn_qos_cpp) JobProgress: {'identifier': 'learn_qos_cpp', 'progress': 'build'}
+[0.044565] (learn_qos_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp', '--', '-j4', '-l4'], 'cwd': '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'hzh'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hzh'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/hzh/ros2_learn/chapt10/chapt10_ws/src'), ('TERM_PROGRAM_VERSION', '1.124.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1945'), ('BUNDLED_DEBUGPY_PATH', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hzh/ros2_learn/chapt10/chapt10_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '12218'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hzh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hzh-virtual-machine:@/tmp/.ICE-unix/1767,unix/hzh-virtual-machine:/tmp/.ICE-unix/1767'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0d0fffa_d9b5_4a72_9155_adb2d3f8dc62'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-219fbc7041cd0929.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/hzh/.config/Code/User/workspaceStorage/bca06ee0d8aace1a14113a5b58a8a28c/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JOI1Q3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ea6842494f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '9d6fd9e22d10b3dfcde18d2c72756eef'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble')]), 'shell': False}
+[0.103473] (-) TimerEvent: {}
+[0.193820] (learn_qos_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target reliability_test\x1b[0m\n'}
+[0.203857] (-) TimerEvent: {}
+[0.240051] (learn_qos_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/reliability_test.dir/src/reliability_test.cpp.o\x1b[0m\n'}
+[0.304700] (-) TimerEvent: {}
+[0.406369] (-) TimerEvent: {}
+[0.509855] (-) TimerEvent: {}
+[0.610444] (-) TimerEvent: {}
+[0.711546] (-) TimerEvent: {}
+[0.812441] (-) TimerEvent: {}
+[0.913044] (-) TimerEvent: {}
+[1.013758] (-) TimerEvent: {}
+[1.115150] (-) TimerEvent: {}
+[1.169898] (learn_qos_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/learn_qos_py', 'build', '--build-base', '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_py/build', 'install', '--record', '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_qos_py', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'hzh', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/hzh', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/hzh/ros2_learn/chapt10/chapt10_ws/src', 'TERM_PROGRAM_VERSION': '1.124.2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1945', 'BUNDLED_DEBUGPY_PATH': '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/hzh/ros2_learn/chapt10/chapt10_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'hzh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '12218', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'hzh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/hzh-virtual-machine:@/tmp/.ICE-unix/1767,unix/hzh-virtual-machine:/tmp/.ICE-unix/1767', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a0d0fffa_d9b5_4a72_9155_adb2d3f8dc62', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-219fbc7041cd0929.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/hzh/.config/Code/User/workspaceStorage/bca06ee0d8aace1a14113a5b58a8a28c/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JOI1Q3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ea6842494f.sock', 'GNOME_TERMINAL_SERVICE': ':1.122', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_py', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'COPILOT_DEBUG_NONCE': '9d6fd9e22d10b3dfcde18d2c72756eef', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/lib/python3.10/site-packages:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp'}, 'shell': False}
+[1.215663] (-) TimerEvent: {}
+[1.316715] (-) TimerEvent: {}
+[1.417418] (-) TimerEvent: {}
+[1.518089] (-) TimerEvent: {}
+[1.553148] (learn_qos_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.555752] (learn_qos_py) StdoutLine: {'line': b'writing ../../build/learn_qos_py/learn_qos_py.egg-info/PKG-INFO\n'}
+[1.555953] (learn_qos_py) StdoutLine: {'line': b'writing dependency_links to ../../build/learn_qos_py/learn_qos_py.egg-info/dependency_links.txt\n'}
+[1.556074] (learn_qos_py) StdoutLine: {'line': b'writing entry points to ../../build/learn_qos_py/learn_qos_py.egg-info/entry_points.txt\n'}
+[1.556434] (learn_qos_py) StdoutLine: {'line': b'writing requirements to ../../build/learn_qos_py/learn_qos_py.egg-info/requires.txt\n'}
+[1.556621] (learn_qos_py) StdoutLine: {'line': b'writing top-level names to ../../build/learn_qos_py/learn_qos_py.egg-info/top_level.txt\n'}
+[1.559237] (learn_qos_py) StdoutLine: {'line': b"reading manifest file '../../build/learn_qos_py/learn_qos_py.egg-info/SOURCES.txt'\n"}
+[1.560368] (learn_qos_py) StdoutLine: {'line': b"writing manifest file '../../build/learn_qos_py/learn_qos_py.egg-info/SOURCES.txt'\n"}
+[1.561332] (learn_qos_py) StdoutLine: {'line': b'running build\n'}
+[1.561822] (learn_qos_py) StdoutLine: {'line': b'running build_py\n'}
+[1.562041] (learn_qos_py) StdoutLine: {'line': b'running install\n'}
+[1.562103] (learn_qos_py) StdoutLine: {'line': b'running install_lib\n'}
+[1.563429] (learn_qos_py) StdoutLine: {'line': b'running install_data\n'}
+[1.563871] (learn_qos_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.565805] (learn_qos_py) StdoutLine: {'line': b"removing '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/lib/python3.10/site-packages/learn_qos_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.566454] (learn_qos_py) StdoutLine: {'line': b'Copying ../../build/learn_qos_py/learn_qos_py.egg-info to /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/lib/python3.10/site-packages/learn_qos_py-0.0.0-py3.10.egg-info\n'}
+[1.569133] (learn_qos_py) StdoutLine: {'line': b'running install_scripts\n'}
+[1.609063] (learn_qos_py) StdoutLine: {'line': b'Installing reliability_test script to /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/lib/learn_qos_py\n'}
+[1.610380] (learn_qos_py) StdoutLine: {'line': b"writing list of installed files to '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_py/install.log'\n"}
+[1.618768] (-) TimerEvent: {}
+[1.666544] (learn_qos_py) CommandEnded: {'returncode': 0}
+[1.683817] (learn_qos_py) JobEnded: {'identifier': 'learn_qos_py', 'rc': 0}
+[1.720267] (-) TimerEvent: {}
+[1.821555] (-) TimerEvent: {}
+[1.922413] (-) TimerEvent: {}
+[2.023525] (-) TimerEvent: {}
+[2.124638] (-) TimerEvent: {}
+[2.225285] (-) TimerEvent: {}
+[2.325989] (-) TimerEvent: {}
+[2.426401] (-) TimerEvent: {}
+[2.527377] (-) TimerEvent: {}
+[2.628426] (-) TimerEvent: {}
+[2.729115] (-) TimerEvent: {}
+[2.829814] (-) TimerEvent: {}
+[2.930588] (-) TimerEvent: {}
+[3.031445] (-) TimerEvent: {}
+[3.132377] (-) TimerEvent: {}
+[3.232798] (-) TimerEvent: {}
+[3.333373] (-) TimerEvent: {}
+[3.433864] (-) TimerEvent: {}
+[3.535111] (-) TimerEvent: {}
+[3.636133] (-) TimerEvent: {}
+[3.736720] (-) TimerEvent: {}
+[3.837585] (-) TimerEvent: {}
+[3.938132] (-) TimerEvent: {}
+[4.038987] (-) TimerEvent: {}
+[4.140600] (-) TimerEvent: {}
+[4.241514] (-) TimerEvent: {}
+[4.342392] (-) TimerEvent: {}
+[4.443166] (-) TimerEvent: {}
+[4.545662] (-) TimerEvent: {}
+[4.647680] (-) TimerEvent: {}
+[4.749784] (-) TimerEvent: {}
+[4.851349] (-) TimerEvent: {}
+[4.953959] (-) TimerEvent: {}
+[5.054819] (-) TimerEvent: {}
+[5.155980] (-) TimerEvent: {}
+[5.256584] (-) TimerEvent: {}
+[5.357119] (-) TimerEvent: {}
+[5.458135] (-) TimerEvent: {}
+[5.559226] (-) TimerEvent: {}
+[5.659722] (-) TimerEvent: {}
+[5.760907] (-) TimerEvent: {}
+[5.863611] (-) TimerEvent: {}
+[5.964387] (-) TimerEvent: {}
+[6.065441] (-) TimerEvent: {}
+[6.166378] (-) TimerEvent: {}
+[6.267314] (-) TimerEvent: {}
+[6.368460] (-) TimerEvent: {}
+[6.469129] (-) TimerEvent: {}
+[6.571513] (-) TimerEvent: {}
+[6.672726] (-) TimerEvent: {}
+[6.773649] (-) TimerEvent: {}
+[6.874591] (-) TimerEvent: {}
+[6.975399] (-) TimerEvent: {}
+[7.076061] (-) TimerEvent: {}
+[7.177891] (-) TimerEvent: {}
+[7.279218] (-) TimerEvent: {}
+[7.380383] (-) TimerEvent: {}
+[7.481686] (-) TimerEvent: {}
+[7.582815] (-) TimerEvent: {}
+[7.683797] (-) TimerEvent: {}
+[7.784892] (-) TimerEvent: {}
+[7.885894] (-) TimerEvent: {}
+[7.986805] (-) TimerEvent: {}
+[8.088257] (-) TimerEvent: {}
+[8.188850] (-) TimerEvent: {}
+[8.289854] (-) TimerEvent: {}
+[8.390824] (-) TimerEvent: {}
+[8.491733] (-) TimerEvent: {}
+[8.592179] (-) TimerEvent: {}
+[8.692651] (-) TimerEvent: {}
+[8.793657] (-) TimerEvent: {}
+[8.894574] (-) TimerEvent: {}
+[8.995486] (-) TimerEvent: {}
+[9.096047] (-) TimerEvent: {}
+[9.197486] (-) TimerEvent: {}
+[9.298349] (-) TimerEvent: {}
+[9.399092] (-) TimerEvent: {}
+[9.500328] (-) TimerEvent: {}
+[9.601413] (-) TimerEvent: {}
+[9.701955] (-) TimerEvent: {}
+[9.802658] (-) TimerEvent: {}
+[9.903646] (-) TimerEvent: {}
+[10.004826] (-) TimerEvent: {}
+[10.105279] (-) TimerEvent: {}
+[10.205933] (-) TimerEvent: {}
+[10.307817] (-) TimerEvent: {}
+[10.408873] (-) TimerEvent: {}
+[10.509826] (-) TimerEvent: {}
+[10.611072] (-) TimerEvent: {}
+[10.712290] (-) TimerEvent: {}
+[10.812821] (-) TimerEvent: {}
+[10.913809] (-) TimerEvent: {}
+[11.014910] (-) TimerEvent: {}
+[11.116127] (-) TimerEvent: {}
+[11.217156] (-) TimerEvent: {}
+[11.317986] (-) TimerEvent: {}
+[11.418879] (-) TimerEvent: {}
+[11.519736] (-) TimerEvent: {}
+[11.620739] (-) TimerEvent: {}
+[11.721842] (-) TimerEvent: {}
+[11.822655] (-) TimerEvent: {}
+[11.923680] (-) TimerEvent: {}
+[12.024547] (-) TimerEvent: {}
+[12.125371] (-) TimerEvent: {}
+[12.226522] (-) TimerEvent: {}
+[12.327337] (-) TimerEvent: {}
+[12.428286] (-) TimerEvent: {}
+[12.529285] (-) TimerEvent: {}
+[12.630083] (-) TimerEvent: {}
+[12.731039] (-) TimerEvent: {}
+[12.831859] (-) TimerEvent: {}
+[12.932504] (-) TimerEvent: {}
+[13.033438] (-) TimerEvent: {}
+[13.134320] (-) TimerEvent: {}
+[13.235577] (-) TimerEvent: {}
+[13.336152] (-) TimerEvent: {}
+[13.437817] (-) TimerEvent: {}
+[13.538366] (-) TimerEvent: {}
+[13.639118] (-) TimerEvent: {}
+[13.739620] (-) TimerEvent: {}
+[13.840775] (-) TimerEvent: {}
+[13.941339] (-) TimerEvent: {}
+[14.042564] (-) TimerEvent: {}
+[14.143601] (-) TimerEvent: {}
+[14.244263] (-) TimerEvent: {}
+[14.287499] (learn_qos_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable reliability_test\x1b[0m\n'}
+[14.344497] (-) TimerEvent: {}
+[14.445028] (-) TimerEvent: {}
+[14.545644] (-) TimerEvent: {}
+[14.646321] (-) TimerEvent: {}
+[14.746767] (-) TimerEvent: {}
+[14.847366] (-) TimerEvent: {}
+[14.935501] (learn_qos_cpp) StdoutLine: {'line': b'[100%] Built target reliability_test\n'}
+[14.947693] (-) TimerEvent: {}
+[14.955113] (learn_qos_cpp) CommandEnded: {'returncode': 0}
+[14.957171] (learn_qos_cpp) JobProgress: {'identifier': 'learn_qos_cpp', 'progress': 'install'}
+[14.975960] (learn_qos_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp'], 'cwd': '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'hzh'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hzh'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/hzh/ros2_learn/chapt10/chapt10_ws/src'), ('TERM_PROGRAM_VERSION', '1.124.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1945'), ('BUNDLED_DEBUGPY_PATH', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hzh/ros2_learn/chapt10/chapt10_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hzh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '12218'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hzh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hzh/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/hzh-virtual-machine:@/tmp/.ICE-unix/1767,unix/hzh-virtual-machine:/tmp/.ICE-unix/1767'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a0d0fffa_d9b5_4a72_9155_adb2d3f8dc62'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/hzh/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-219fbc7041cd0929.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/hzh/.config/Code/User/workspaceStorage/bca06ee0d8aace1a14113a5b58a8a28c/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JOI1Q3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ea6842494f.sock'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '9d6fd9e22d10b3dfcde18d2c72756eef'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble')]), 'shell': False}
+[14.989013] (learn_qos_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.989555] (learn_qos_cpp) StdoutLine: {'line': b'-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/lib/learn_qos_cpp/reliability_test\n'}
+[14.996158] (learn_qos_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/lib/learn_qos_cpp/reliability_test" to ""\n'}
+[14.996378] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/ament_index/resource_index/package_run_dependencies/learn_qos_cpp\n'}
+[14.996841] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/ament_index/resource_index/parent_prefix_path/learn_qos_cpp\n'}
+[14.997021] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/environment/ament_prefix_path.sh\n'}
+[14.997508] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/environment/ament_prefix_path.dsv\n'}
+[14.997920] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/environment/path.sh\n'}
+[14.998106] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/environment/path.dsv\n'}
+[14.998177] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/local_setup.bash\n'}
+[14.998483] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/local_setup.sh\n'}
+[14.999424] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/local_setup.zsh\n'}
+[15.000040] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/local_setup.dsv\n'}
+[15.000158] (learn_qos_cpp) StdoutLine: {'line': b'-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/package.dsv\n'}
+[15.000210] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/ament_index/resource_index/packages/learn_qos_cpp\n'}
+[15.000260] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/cmake/learn_qos_cppConfig.cmake\n'}
+[15.000306] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/cmake/learn_qos_cppConfig-version.cmake\n'}
+[15.000352] (learn_qos_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/package.xml\n'}
+[15.005819] (learn_qos_cpp) CommandEnded: {'returncode': 0}
+[15.037685] (learn_qos_cpp) JobEnded: {'identifier': 'learn_qos_cpp', 'rc': 0}
+[15.040834] (-) EventReactorShutdown: {}

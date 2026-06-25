@@ -1,0 +1,13 @@
+[01m[K/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_compose/src/talker.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Klearn_compose/talker.hpp: 没有那个文件或目录
+    2 | #include [01;31m[K"learn_compose/talker.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/intra_process_pubsub.dir/build.make:90：CMakeFiles/intra_process_pubsub.dir/src/talker.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+[01m[K/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_compose/src/intra_process_pubsub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Klearn_compose/talker.hpp: 没有那个文件或目录
+    2 | #include [01;31m[K"learn_compose/talker.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/intra_process_pubsub.dir/build.make:76：CMakeFiles/intra_process_pubsub.dir/src/intra_process_pubsub.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/intra_process_pubsub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

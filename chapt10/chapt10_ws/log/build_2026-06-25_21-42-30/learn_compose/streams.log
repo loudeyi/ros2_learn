@@ -1,0 +1,61 @@
+[0.073s] Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose -- -j4 -l4
+[0.858s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.858s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.858s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.858s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.859s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.859s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.859s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.859s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.859s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.135s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.270s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.393s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.570s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.570s] -- Configured cppcheck include dirs: /home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_compose/include
+[1.570s] -- Configured cppcheck exclude dirs and/or files: 
+[1.573s] -- Added test 'lint_cmake' to check CMake code style
+[1.573s] -- Added test 'uncrustify' to check C / C++ code style
+[1.574s] -- Configured uncrustify additional arguments: 
+[1.576s] -- Added test 'xmllint' to check XML markup files
+[1.576s] -- Configuring done
+[1.628s] -- Generating done
+[1.668s] -- Build files have been written to: /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose
+[1.823s] [35m[1mConsolidate compiler generated dependencies of target intra_process_pubsub[0m
+[1.832s] [ 25%] [32mBuilding CXX object CMakeFiles/talker_component.dir/src/talker.cpp.o[0m
+[1.833s] [ 25%] [32mBuilding CXX object CMakeFiles/listener_component.dir/src/listener.cpp.o[0m
+[1.949s] [ 37%] [32mBuilding CXX object CMakeFiles/intra_process_pubsub.dir/src/intra_process_pubsub.cpp.o[0m
+[1.998s] [ 50%] [32mBuilding CXX object CMakeFiles/intra_process_pubsub.dir/src/talker.cpp.o[0m
+[10.461s] [ 62%] [32mBuilding CXX object CMakeFiles/intra_process_pubsub.dir/src/listener.cpp.o[0m
+[13.717s] [ 75%] [32m[1mLinking CXX shared library libtalker_component.so[0m
+[14.324s] [ 75%] Built target talker_component
+[20.476s] [ 87%] [32m[1mLinking CXX shared library liblistener_component.so[0m
+[21.147s] [ 87%] Built target listener_component
+[25.124s] [100%] [32m[1mLinking CXX executable intra_process_pubsub[0m
+[25.874s] [100%] Built target intra_process_pubsub
+[25.895s] Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose -- -j4 -l4
+[25.897s] Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose
+[25.906s] -- Install configuration: ""
+[25.907s] -- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib/learn_compose/intra_process_pubsub
+[25.912s] -- Set runtime path of "/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib/learn_compose/intra_process_pubsub" to ""
+[25.912s] -- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib/libtalker_component.so
+[25.916s] -- Set runtime path of "/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib/libtalker_component.so" to ""
+[25.917s] -- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib/liblistener_component.so
+[25.927s] -- Set runtime path of "/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib/liblistener_component.so" to ""
+[25.927s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/ament_index/resource_index/package_run_dependencies/learn_compose
+[25.928s] -- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/ament_index/resource_index/parent_prefix_path/learn_compose
+[25.929s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/environment/ament_prefix_path.sh
+[25.929s] -- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/environment/ament_prefix_path.dsv
+[25.929s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/environment/path.sh
+[25.929s] -- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/environment/path.dsv
+[25.929s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/local_setup.bash
+[25.929s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/local_setup.sh
+[25.929s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/local_setup.zsh
+[25.929s] -- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/local_setup.dsv
+[25.929s] -- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.dsv
+[25.930s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/ament_index/resource_index/packages/learn_compose
+[25.930s] -- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/ament_index/resource_index/rclcpp_components/learn_compose
+[25.930s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/cmake/learn_composeConfig.cmake
+[25.930s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/cmake/learn_composeConfig-version.cmake
+[25.930s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.xml
+[25.936s] Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose

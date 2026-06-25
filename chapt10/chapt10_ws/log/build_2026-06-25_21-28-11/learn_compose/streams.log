@@ -1,0 +1,41 @@
+[0.049s] Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_compose -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose
+[0.624s] -- The C compiler identification is GNU 11.4.0
+[0.624s] -- The CXX compiler identification is GNU 11.4.0
+[0.624s] -- Detecting C compiler ABI info
+[0.624s] -- Detecting C compiler ABI info - done
+[0.658s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.659s] -- Detecting C compile features
+[0.659s] -- Detecting C compile features - done
+[0.677s] -- Detecting CXX compiler ABI info
+[0.988s] -- Detecting CXX compiler ABI info - done
+[1.012s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.013s] -- Detecting CXX compile features
+[1.015s] -- Detecting CXX compile features - done
+[1.036s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.502s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.860s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.989s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.020s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.051s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.110s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.149s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.275s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.278s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.566s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.630s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.725s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.746s] -- Looking for pthread.h
+[2.929s] -- Looking for pthread.h - found
+[2.939s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.190s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.191s] -- Found Threads: TRUE  
+[3.325s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[3.326s]   ament_target_dependencies() the passed package name 'rclcpp_components' was
+[3.326s]   not found before
+[3.326s] Call Stack (most recent call first):
+[3.326s]   CMakeLists.txt:19 (ament_target_dependencies)
+[3.326s] 
+[3.326s] [0m
+[3.328s] -- Configuring incomplete, errors occurred!
+[3.328s] See also "/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose/CMakeFiles/CMakeOutput.log".
+[3.355s] Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_compose -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose

@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/learn_message_filter/learn_message_filter.egg-info/PKG-INFO
+writing dependency_links to ../../build/learn_message_filter/learn_message_filter.egg-info/dependency_links.txt
+writing entry points to ../../build/learn_message_filter/learn_message_filter.egg-info/entry_points.txt
+writing requirements to ../../build/learn_message_filter/learn_message_filter.egg-info/requires.txt
+writing top-level names to ../../build/learn_message_filter/learn_message_filter.egg-info/top_level.txt
+reading manifest file '../../build/learn_message_filter/learn_message_filter.egg-info/SOURCES.txt'
+writing manifest file '../../build/learn_message_filter/learn_message_filter.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/build/lib/learn_message_filter_py
+copying learn_message_filter_py/__init__.py -> /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/build/lib/learn_message_filter_py
+copying learn_message_filter_py/timesync_test.py -> /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/build/lib/learn_message_filter_py
+running install
+running install_lib
+creating /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages/learn_message_filter_py
+copying /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/build/lib/learn_message_filter_py/__init__.py -> /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages/learn_message_filter_py
+copying /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/build/lib/learn_message_filter_py/timesync_test.py -> /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages/learn_message_filter_py
+byte-compiling /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages/learn_message_filter_py/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages/learn_message_filter_py/timesync_test.py to timesync_test.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages/learn_message_filter-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/learn_message_filter/learn_message_filter.egg-info to /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages/learn_message_filter-0.0.0-py3.10.egg-info
+running install_scripts
+Installing timesync_test script to /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/learn_message_filter
+writing list of installed files to '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/install.log'

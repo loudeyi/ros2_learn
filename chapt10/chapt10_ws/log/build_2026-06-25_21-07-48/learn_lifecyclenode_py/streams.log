@@ -1,0 +1,37 @@
+[1.896s] Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_lifecyclenode_py': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_lifecyclenode_py build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/install.log --install-scripts $base/lib/learn_lifecyclenode_py --single-version-externally-managed install_data
+[2.586s] running egg_info
+[2.587s] creating ../../build/learn_lifecyclenode_py/learn_lifecyclenode_py.egg-info
+[2.587s] writing ../../build/learn_lifecyclenode_py/learn_lifecyclenode_py.egg-info/PKG-INFO
+[2.592s] writing dependency_links to ../../build/learn_lifecyclenode_py/learn_lifecyclenode_py.egg-info/dependency_links.txt
+[2.592s] writing entry points to ../../build/learn_lifecyclenode_py/learn_lifecyclenode_py.egg-info/entry_points.txt
+[2.592s] writing requirements to ../../build/learn_lifecyclenode_py/learn_lifecyclenode_py.egg-info/requires.txt
+[2.592s] writing top-level names to ../../build/learn_lifecyclenode_py/learn_lifecyclenode_py.egg-info/top_level.txt
+[2.592s] writing manifest file '../../build/learn_lifecyclenode_py/learn_lifecyclenode_py.egg-info/SOURCES.txt'
+[2.595s] reading manifest file '../../build/learn_lifecyclenode_py/learn_lifecyclenode_py.egg-info/SOURCES.txt'
+[2.601s] writing manifest file '../../build/learn_lifecyclenode_py/learn_lifecyclenode_py.egg-info/SOURCES.txt'
+[2.601s] running build
+[2.601s] running build_py
+[2.601s] creating /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/build
+[2.601s] creating /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/build/lib
+[2.601s] creating /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/build/lib/learn_lifecyclenode_py
+[2.601s] copying learn_lifecyclenode_py/__init__.py -> /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/build/lib/learn_lifecyclenode_py
+[2.601s] copying learn_lifecyclenode_py/learn_lifecyclenode.py -> /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/build/lib/learn_lifecyclenode_py
+[2.601s] running install
+[2.601s] running install_lib
+[2.603s] creating /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib/python3.10/site-packages/learn_lifecyclenode_py
+[2.603s] copying /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/build/lib/learn_lifecyclenode_py/__init__.py -> /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib/python3.10/site-packages/learn_lifecyclenode_py
+[2.603s] copying /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/build/lib/learn_lifecyclenode_py/learn_lifecyclenode.py -> /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib/python3.10/site-packages/learn_lifecyclenode_py
+[2.605s] byte-compiling /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib/python3.10/site-packages/learn_lifecyclenode_py/__init__.py to __init__.cpython-310.pyc
+[2.606s] byte-compiling /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib/python3.10/site-packages/learn_lifecyclenode_py/learn_lifecyclenode.py to learn_lifecyclenode.cpython-310.pyc
+[2.609s] running install_data
+[2.609s] creating /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/ament_index
+[2.609s] creating /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/ament_index/resource_index
+[2.609s] creating /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/ament_index/resource_index/packages
+[2.609s] copying resource/learn_lifecyclenode_py -> /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/ament_index/resource_index/packages
+[2.610s] copying package.xml -> /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/learn_lifecyclenode_py
+[2.610s] running install_egg_info
+[2.619s] Copying ../../build/learn_lifecyclenode_py/learn_lifecyclenode_py.egg-info to /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib/python3.10/site-packages/learn_lifecyclenode_py-0.0.0-py3.10.egg-info
+[2.620s] running install_scripts
+[2.664s] Installing learn_lifecyclenode script to /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib/learn_lifecyclenode_py
+[2.665s] writing list of installed files to '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/install.log'
+[2.827s] Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_lifecyclenode_py' returned '0': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_lifecyclenode_py build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/install.log --install-scripts $base/lib/learn_lifecyclenode_py --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/humble/include/**",
+                "${workspaceFolder}/chapt8_ws/src/nav2_custom_planner/include/**",
+                "${workspaceFolder}/chapt8_ws/src/nav2_custom_controller/include/**",
+                "${workspaceFolder}/chapt8_ws/src/nav2_custom_controller/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "intelliSenseMode": "linux-gcc-x64",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17"
+        }
+    ],
+    "version": 4
+}

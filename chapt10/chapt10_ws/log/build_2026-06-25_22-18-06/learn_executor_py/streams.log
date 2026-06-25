@@ -1,0 +1,21 @@
+[2.171s] Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_executor_py': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_executor_py build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py/install.log --install-scripts $base/lib/learn_executor_py --single-version-externally-managed install_data
+[2.926s] running egg_info
+[2.937s] writing ../../build/learn_executor_py/learn_executor_py.egg-info/PKG-INFO
+[2.937s] writing dependency_links to ../../build/learn_executor_py/learn_executor_py.egg-info/dependency_links.txt
+[2.946s] writing entry points to ../../build/learn_executor_py/learn_executor_py.egg-info/entry_points.txt
+[2.947s] writing requirements to ../../build/learn_executor_py/learn_executor_py.egg-info/requires.txt
+[2.950s] writing top-level names to ../../build/learn_executor_py/learn_executor_py.egg-info/top_level.txt
+[2.972s] reading manifest file '../../build/learn_executor_py/learn_executor_py.egg-info/SOURCES.txt'
+[2.974s] writing manifest file '../../build/learn_executor_py/learn_executor_py.egg-info/SOURCES.txt'
+[2.974s] running build
+[2.974s] running build_py
+[2.981s] running install
+[2.981s] running install_lib
+[2.981s] running install_data
+[2.981s] running install_egg_info
+[3.007s] removing '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/lib/python3.10/site-packages/learn_executor_py-0.0.0-py3.10.egg-info' (and everything under it)
+[3.007s] Copying ../../build/learn_executor_py/learn_executor_py.egg-info to /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/lib/python3.10/site-packages/learn_executor_py-0.0.0-py3.10.egg-info
+[3.009s] running install_scripts
+[3.086s] Installing learn_executor script to /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/lib/learn_executor_py
+[3.087s] writing list of installed files to '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py/install.log'
+[3.214s] Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_executor_py' returned '0': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_executor_py build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py/install.log --install-scripts $base/lib/learn_executor_py --single-version-externally-managed install_data

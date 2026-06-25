@@ -1,0 +1,21 @@
+[2.871s] Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_message_filter_py': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_message_filter build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/install.log --install-scripts $base/lib/learn_message_filter --single-version-externally-managed install_data
+[3.628s] running egg_info
+[3.629s] writing ../../build/learn_message_filter/learn_message_filter.egg-info/PKG-INFO
+[3.629s] writing dependency_links to ../../build/learn_message_filter/learn_message_filter.egg-info/dependency_links.txt
+[3.629s] writing entry points to ../../build/learn_message_filter/learn_message_filter.egg-info/entry_points.txt
+[3.629s] writing requirements to ../../build/learn_message_filter/learn_message_filter.egg-info/requires.txt
+[3.629s] writing top-level names to ../../build/learn_message_filter/learn_message_filter.egg-info/top_level.txt
+[3.629s] reading manifest file '../../build/learn_message_filter/learn_message_filter.egg-info/SOURCES.txt'
+[3.629s] writing manifest file '../../build/learn_message_filter/learn_message_filter.egg-info/SOURCES.txt'
+[3.629s] running build
+[3.629s] running build_py
+[3.630s] running install
+[3.630s] running install_lib
+[3.630s] running install_data
+[3.630s] running install_egg_info
+[3.630s] removing '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages/learn_message_filter-0.0.0-py3.10.egg-info' (and everything under it)
+[3.636s] Copying ../../build/learn_message_filter/learn_message_filter.egg-info to /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages/learn_message_filter-0.0.0-py3.10.egg-info
+[3.646s] running install_scripts
+[3.727s] Installing timesync_test script to /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/learn_message_filter
+[3.735s] writing list of installed files to '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/install.log'
+[3.861s] Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_message_filter_py' returned '0': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_message_filter build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/install.log --install-scripts $base/lib/learn_message_filter --single-version-externally-managed install_data

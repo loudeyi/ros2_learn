@@ -1,0 +1,4 @@
+Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp -- -j4 -l4
+Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp -- -j4 -l4
+Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp
+Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp

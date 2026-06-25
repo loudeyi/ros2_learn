@@ -1,0 +1,23 @@
+[0.028s] Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp -- -j4 -l4
+[0.230s] [35m[1mConsolidate compiler generated dependencies of target timesync_test[0m
+[0.306s] [100%] Built target timesync_test
+[0.383s] Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp -- -j4 -l4
+[0.397s] Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp
+[0.435s] -- Install configuration: ""
+[0.435s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/lib/learn_message_filter_cpp/timesync_test
+[0.435s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/ament_index/resource_index/package_run_dependencies/learn_message_filter_cpp
+[0.435s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/ament_index/resource_index/parent_prefix_path/learn_message_filter_cpp
+[0.435s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/environment/ament_prefix_path.sh
+[0.435s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/environment/ament_prefix_path.dsv
+[0.435s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/environment/path.sh
+[0.435s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/environment/path.dsv
+[0.435s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/local_setup.bash
+[0.436s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/local_setup.sh
+[0.436s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/local_setup.zsh
+[0.436s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/local_setup.dsv
+[0.436s] -- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/package.dsv
+[0.445s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/ament_index/resource_index/packages/learn_message_filter_cpp
+[0.446s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/cmake/learn_message_filter_cppConfig.cmake
+[0.446s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/cmake/learn_message_filter_cppConfig-version.cmake
+[0.446s] -- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/package.xml
+[0.456s] Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp

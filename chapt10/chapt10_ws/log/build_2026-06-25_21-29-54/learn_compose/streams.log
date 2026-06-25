@@ -1,0 +1,18 @@
+[0.059s] Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose -- -j4 -l4
+[0.855s] [35m[1mConsolidate compiler generated dependencies of target intra_process_pubsub[0m
+[0.856s] [ 25%] [32mBuilding CXX object CMakeFiles/intra_process_pubsub.dir/src/talker.cpp.o[0m
+[0.858s] [ 50%] [32mBuilding CXX object CMakeFiles/intra_process_pubsub.dir/src/intra_process_pubsub.cpp.o[0m
+[0.858s] [01m[K/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_compose/src/talker.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Klearn_compose/talker.hpp: 没有那个文件或目录
+[0.859s]     2 | #include [01;31m[K"learn_compose/talker.hpp"[m[K
+[0.859s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.859s] compilation terminated.
+[0.859s] gmake[2]: *** [CMakeFiles/intra_process_pubsub.dir/build.make:90：CMakeFiles/intra_process_pubsub.dir/src/talker.cpp.o] 错误 1
+[0.859s] gmake[2]: *** 正在等待未完成的任务....
+[0.943s] [01m[K/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_compose/src/intra_process_pubsub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Klearn_compose/talker.hpp: 没有那个文件或目录
+[0.943s]     2 | #include [01;31m[K"learn_compose/talker.hpp"[m[K
+[0.944s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.944s] compilation terminated.
+[0.957s] gmake[2]: *** [CMakeFiles/intra_process_pubsub.dir/build.make:76：CMakeFiles/intra_process_pubsub.dir/src/intra_process_pubsub.cpp.o] 错误 1
+[0.957s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/intra_process_pubsub.dir/all] 错误 2
+[0.964s] gmake: *** [Makefile:146：all] 错误 2
+[1.539s] Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose -- -j4 -l4

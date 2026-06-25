@@ -1,0 +1,39 @@
+[0.057s] Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose -- -j4 -l4
+[0.478s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.478s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.479s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.479s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.479s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.479s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.480s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.482s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.695s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.768s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.882s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.882s] -- Configured cppcheck include dirs: /home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_compose/include
+[0.882s] -- Configured cppcheck exclude dirs and/or files: 
+[0.883s] -- Added test 'lint_cmake' to check CMake code style
+[0.884s] -- Added test 'uncrustify' to check C / C++ code style
+[0.884s] -- Configured uncrustify additional arguments: 
+[0.884s] -- Added test 'xmllint' to check XML markup files
+[0.885s] -- Configuring done
+[0.902s] -- Generating done
+[0.910s] -- Build files have been written to: /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose
+[0.972s] [35m[1mConsolidate compiler generated dependencies of target intra_process_pubsub[0m
+[1.007s] [ 25%] [32mBuilding CXX object CMakeFiles/intra_process_pubsub.dir/src/talker.cpp.o[0m
+[1.009s] [ 50%] [32mBuilding CXX object CMakeFiles/intra_process_pubsub.dir/src/intra_process_pubsub.cpp.o[0m
+[1.074s] [01m[K/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_compose/src/talker.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Klearn_compose/talker.hpp: 没有那个文件或目录
+[1.074s]     2 | #include [01;31m[K"learn_compose/talker.hpp"[m[K
+[1.079s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.081s] compilation terminated.
+[1.081s] gmake[2]: *** [CMakeFiles/intra_process_pubsub.dir/build.make:90：CMakeFiles/intra_process_pubsub.dir/src/talker.cpp.o] 错误 1
+[1.081s] gmake[2]: *** 正在等待未完成的任务....
+[1.431s] [01m[K/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_compose/src/intra_process_pubsub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Klearn_compose/talker.hpp: 没有那个文件或目录
+[1.431s]     2 | #include [01;31m[K"learn_compose/talker.hpp"[m[K
+[1.431s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.431s] compilation terminated.
+[1.455s] gmake[2]: *** [CMakeFiles/intra_process_pubsub.dir/build.make:76：CMakeFiles/intra_process_pubsub.dir/src/intra_process_pubsub.cpp.o] 错误 1
+[1.462s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/intra_process_pubsub.dir/all] 错误 2
+[1.462s] gmake: *** [Makefile:146：all] 错误 2
+[1.531s] Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose -- -j4 -l4

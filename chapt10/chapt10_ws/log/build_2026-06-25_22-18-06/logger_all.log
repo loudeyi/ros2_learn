@@ -1,0 +1,653 @@
+[0.197s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.197s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff09fd31540>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff09fe4ed40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff09fe4ed40>>)
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.443s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hzh/ros2_learn/chapt10/chapt10_ws'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_compose) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_compose) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_compose) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_compose) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_compose) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_compose) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_compose) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_compose) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_compose) by extension 'ros'
+[0.470s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learn_compose' with type 'ros.ament_cmake' and name 'learn_compose'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_cpp) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_cpp) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_cpp) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_cpp) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_cpp) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_cpp) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_cpp) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_cpp) by extension 'ros'
+[0.472s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learn_executor_cpp' with type 'ros.ament_cmake' and name 'learn_executor_cpp'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_py) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_py) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_py) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_py) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_py) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_py) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_py) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_py) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_executor_py) by extension 'ros'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learn_executor_py' with type 'ros.ament_python' and name 'learn_executor_py'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_cpp) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_cpp) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_cpp) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_cpp) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_cpp) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_cpp) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_cpp) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_cpp) by extension 'ros'
+[0.477s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learn_lifecyclenode_cpp' with type 'ros.ament_cmake' and name 'learn_lifecyclenode_cpp'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_py) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_py) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_py) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_py) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_py) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_py) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_py) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_py) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_lifecyclenode_py) by extension 'ros'
+[0.479s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learn_lifecyclenode_py' with type 'ros.ament_python' and name 'learn_lifecyclenode_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_cpp) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_cpp) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_cpp) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_cpp) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_cpp) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_cpp) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_cpp) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_cpp) by extension 'ros'
+[0.481s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learn_message_filter_cpp' with type 'ros.ament_cmake' and name 'learn_message_filter_cpp'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_py) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_py) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_py) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_py) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_py) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_py) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_py) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_py) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_message_filter_py) by extension 'ros'
+[0.482s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learn_message_filter_py' with type 'ros.ament_python' and name 'learn_message_filter'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_cpp) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_cpp) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_cpp) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_cpp) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_cpp) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_cpp) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_cpp) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_cpp) by extension 'ros'
+[0.484s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learn_qos_cpp' with type 'ros.ament_cmake' and name 'learn_qos_cpp'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_py) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_py) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_py) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_py) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_py) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_py) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_py) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_py) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/learn_qos_py) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package 'src/learn_qos_py' with type 'ros.ament_python' and name 'learn_qos_py'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extensions ['cmake', 'python']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extension 'cmake'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extension 'python'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extensions ['python_setup_py']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(tmp) by extension 'python_setup_py'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extension 'ros'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extensions ['cmake', 'python']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extension 'cmake'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extension 'python'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extensions ['python_setup_py']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha) by extension 'python_setup_py'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extension 'ros'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extensions ['cmake', 'python']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extension 'cmake'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extension 'python'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extensions ['python_setup_py']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(tmp/aha/dconf) by extension 'python_setup_py'
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.547s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/hzh/ros2_learn/chapt10/chapt10_ws/install
+[0.549s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 372 installed packages in /opt/ros/humble
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'cmake_target' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'cmake_clean_cache' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'cmake_clean_first' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'cmake_force_configure' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'ament_cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'catkin_cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'learn_compose' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.618s] DEBUG:colcon.colcon_core.verb:Building package 'learn_compose' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose', 'merge_install': False, 'path': '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_compose', 'symlink_install': False, 'test_result_base': None}
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_cpp' build argument 'cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_cpp' build argument 'cmake_target' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.619s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.619s] DEBUG:colcon.colcon_core.verb:Building package 'learn_executor_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp', 'merge_install': False, 'path': '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_executor_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_py' build argument 'cmake_args' from command line to 'None'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_py' build argument 'cmake_target' from command line to 'None'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'learn_executor_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.620s] DEBUG:colcon.colcon_core.verb:Building package 'learn_executor_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py', 'merge_install': False, 'path': '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_executor_py', 'symlink_install': False, 'test_result_base': None}
+[0.620s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_cpp' build argument 'cmake_args' from command line to 'None'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_cpp' build argument 'cmake_target' from command line to 'None'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.621s] DEBUG:colcon.colcon_core.verb:Building package 'learn_lifecyclenode_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp', 'merge_install': False, 'path': '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_lifecyclenode_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_py' build argument 'cmake_args' from command line to 'None'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_py' build argument 'cmake_target' from command line to 'None'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.621s] Level 5:colcon.colcon_core.verb:set package 'learn_lifecyclenode_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.621s] DEBUG:colcon.colcon_core.verb:Building package 'learn_lifecyclenode_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py', 'merge_install': False, 'path': '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_lifecyclenode_py', 'symlink_install': False, 'test_result_base': None}
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter' build argument 'cmake_args' from command line to 'None'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter' build argument 'cmake_target' from command line to 'None'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.622s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.623s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.623s] DEBUG:colcon.colcon_core.verb:Building package 'learn_message_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter', 'merge_install': False, 'path': '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_message_filter_py', 'symlink_install': False, 'test_result_base': None}
+[0.623s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter_cpp' build argument 'cmake_args' from command line to 'None'
+[0.623s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter_cpp' build argument 'cmake_target' from command line to 'None'
+[0.623s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.623s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.623s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.623s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.623s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.623s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.623s] Level 5:colcon.colcon_core.verb:set package 'learn_message_filter_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.623s] DEBUG:colcon.colcon_core.verb:Building package 'learn_message_filter_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp', 'merge_install': False, 'path': '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_message_filter_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_cpp' build argument 'cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_cpp' build argument 'cmake_target' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.624s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.624s] DEBUG:colcon.colcon_core.verb:Building package 'learn_qos_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp', 'merge_install': False, 'path': '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_qos_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_py' build argument 'cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_py' build argument 'cmake_target' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.625s] Level 5:colcon.colcon_core.verb:set package 'learn_qos_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.625s] DEBUG:colcon.colcon_core.verb:Building package 'learn_qos_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py', 'merge_install': False, 'path': '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_qos_py', 'symlink_install': False, 'test_result_base': None}
+[0.626s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.627s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.628s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_compose' with build type 'ament_cmake'
+[0.628s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_compose'
+[0.635s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.635s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.635s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.643s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_executor_cpp' with build type 'ament_cmake'
+[0.644s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_executor_cpp'
+[0.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.654s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_executor_py' with build type 'ament_python'
+[0.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_executor_py', 'ament_prefix_path')
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/share/learn_executor_py/hook/ament_prefix_path.ps1'
+[0.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/share/learn_executor_py/hook/ament_prefix_path.dsv'
+[0.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/share/learn_executor_py/hook/ament_prefix_path.sh'
+[0.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.667s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_lifecyclenode_cpp' with build type 'ament_cmake'
+[0.668s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_lifecyclenode_cpp'
+[0.669s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.669s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose -- -j4 -l4
+[0.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_cpp -- -j4 -l4
+[1.241s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_executor_py'
+[1.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_cpp -- -j4 -l4
+[1.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_cpp
+[1.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_cpp -- -j4 -l4
+[1.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose -- -j4 -l4
+[1.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose
+[1.325s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_executor_cpp)
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp' for CMake module files
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp' for CMake config files
+[1.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_executor_cpp', 'cmake_prefix_path')
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/hook/cmake_prefix_path.ps1'
+[1.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/hook/cmake_prefix_path.dsv'
+[1.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_cpp
+[1.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/hook/cmake_prefix_path.sh'
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/lib'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/bin'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/lib/pkgconfig/learn_executor_cpp.pc'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/lib/python3.10/site-packages'
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/bin'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/package.ps1'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/package.dsv'
+[1.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/package.sh'
+[1.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/package.bash'
+[1.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/package.zsh'
+[1.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/colcon-core/packages/learn_executor_cpp)
+[1.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_executor_cpp)
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp' for CMake module files
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp' for CMake config files
+[1.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_executor_cpp', 'cmake_prefix_path')
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/hook/cmake_prefix_path.ps1'
+[1.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/hook/cmake_prefix_path.dsv'
+[1.372s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/hook/cmake_prefix_path.sh'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/lib'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/bin'
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/lib/pkgconfig/learn_executor_cpp.pc'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/lib/python3.10/site-packages'
+[1.377s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/bin'
+[1.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/package.ps1'
+[1.378s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/package.dsv'
+[1.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/package.sh'
+[1.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/package.bash'
+[1.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/learn_executor_cpp/package.zsh'
+[1.389s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_cpp/share/colcon-core/packages/learn_executor_cpp)
+[1.393s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_lifecyclenode_py' with build type 'ament_python'
+[1.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_lifecyclenode_py', 'ament_prefix_path')
+[1.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/learn_lifecyclenode_py/hook/ament_prefix_path.ps1'
+[1.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/learn_lifecyclenode_py/hook/ament_prefix_path.dsv'
+[1.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/learn_lifecyclenode_py/hook/ament_prefix_path.sh'
+[1.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.007s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_lifecyclenode_py'
+[2.007s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.007s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_compose)
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose' for CMake module files
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose' for CMake config files
+[2.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_compose
+[2.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_compose', 'cmake_prefix_path')
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/hook/cmake_prefix_path.ps1'
+[2.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/hook/cmake_prefix_path.dsv'
+[2.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/hook/cmake_prefix_path.sh'
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib'
+[2.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_compose', 'ld_library_path_lib')
+[2.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/hook/ld_library_path_lib.ps1'
+[2.038s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/hook/ld_library_path_lib.dsv'
+[2.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/hook/ld_library_path_lib.sh'
+[2.041s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/bin'
+[2.042s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib/pkgconfig/learn_compose.pc'
+[2.043s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib/python3.10/site-packages'
+[2.044s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/bin'
+[2.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.ps1'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.dsv'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.sh'
+[2.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.bash'
+[2.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.zsh'
+[2.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/colcon-core/packages/learn_compose)
+[2.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_compose)
+[2.066s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose' for CMake module files
+[2.067s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose' for CMake config files
+[2.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_compose', 'cmake_prefix_path')
+[2.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/hook/cmake_prefix_path.ps1'
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/hook/cmake_prefix_path.dsv'
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/hook/cmake_prefix_path.sh'
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib'
+[2.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_compose', 'ld_library_path_lib')
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/hook/ld_library_path_lib.ps1'
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/hook/ld_library_path_lib.dsv'
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/hook/ld_library_path_lib.sh'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/bin'
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib/pkgconfig/learn_compose.pc'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib/python3.10/site-packages'
+[2.085s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/bin'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.ps1'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.dsv'
+[2.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.sh'
+[2.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.bash'
+[2.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.zsh'
+[2.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/colcon-core/packages/learn_compose)
+[2.098s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_message_filter_py' with build type 'ament_python'
+[2.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_message_filter', 'ament_prefix_path')
+[2.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/share/learn_message_filter/hook/ament_prefix_path.ps1'
+[2.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/share/learn_message_filter/hook/ament_prefix_path.dsv'
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/share/learn_message_filter/hook/ament_prefix_path.sh'
+[2.108s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.108s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_cpp -- -j4 -l4
+[2.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_cpp
+[2.757s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_message_filter_py'
+[2.757s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.757s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_lifecyclenode_cpp)
+[2.767s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp' for CMake module files
+[2.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_cpp
+[2.771s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp' for CMake config files
+[2.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_lifecyclenode_cpp', 'cmake_prefix_path')
+[2.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/hook/cmake_prefix_path.ps1'
+[2.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/hook/cmake_prefix_path.dsv'
+[2.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/hook/cmake_prefix_path.sh'
+[2.777s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/lib'
+[2.777s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/bin'
+[2.778s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/lib/pkgconfig/learn_lifecyclenode_cpp.pc'
+[2.778s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/lib/python3.10/site-packages'
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/bin'
+[2.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.ps1'
+[2.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.dsv'
+[2.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.sh'
+[2.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.bash'
+[2.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.zsh'
+[2.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/colcon-core/packages/learn_lifecyclenode_cpp)
+[2.792s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_lifecyclenode_cpp)
+[2.792s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp' for CMake module files
+[2.793s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp' for CMake config files
+[2.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_lifecyclenode_cpp', 'cmake_prefix_path')
+[2.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/hook/cmake_prefix_path.ps1'
+[2.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/hook/cmake_prefix_path.dsv'
+[2.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/hook/cmake_prefix_path.sh'
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/lib'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/bin'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/lib/pkgconfig/learn_lifecyclenode_cpp.pc'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/lib/python3.10/site-packages'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/bin'
+[2.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.ps1'
+[2.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.dsv'
+[2.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.sh'
+[2.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.bash'
+[2.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/learn_lifecyclenode_cpp/package.zsh'
+[2.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_cpp/share/colcon-core/packages/learn_lifecyclenode_cpp)
+[2.812s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_ext, update_catalog, install_headers, bdist, install_scripts, symlink_data, init_catalog, develop, saveopts, alias, compile_catalog, install_lib, sdist, install_egg_info, setopt, build_scripts, bdist_rpm, egg_info, bdist_egg, install, register, build, install_data, clean, build_clib, bdist_wheel, upload_docs, dist_info, check, build_py, easy_install, rotate, bdist_dumb, extract_messages, upload, test
+[2.821s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_message_filter_cpp' with build type 'ament_cmake'
+[2.821s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_message_filter_cpp'
+[2.821s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.821s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_executor_py': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_executor_py build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py/install.log --install-scripts $base/lib/learn_executor_py --single-version-externally-managed install_data
+[2.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_message_filter_cpp -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp
+[2.933s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_ext, update_catalog, install_headers, bdist, install_scripts, symlink_data, init_catalog, develop, saveopts, alias, compile_catalog, install_lib, sdist, install_egg_info, setopt, build_scripts, bdist_rpm, egg_info, bdist_egg, install, register, build, install_data, clean, build_clib, bdist_wheel, upload_docs, dist_info, check, build_py, easy_install, rotate, bdist_dumb, extract_messages, upload, test
+[2.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_lifecyclenode_py': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_lifecyclenode_py build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/install.log --install-scripts $base/lib/learn_lifecyclenode_py --single-version-externally-managed install_data
+[3.865s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py' for CMake module files
+[3.866s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py' for CMake config files
+[3.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_executor_py' returned '0': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_executor_py build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_executor_py/install.log --install-scripts $base/lib/learn_executor_py --single-version-externally-managed install_data
+[3.875s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/lib'
+[3.881s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/bin'
+[3.881s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/lib/pkgconfig/learn_executor_py.pc'
+[3.882s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/lib/python3.10/site-packages'
+[3.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_executor_py', 'pythonpath')
+[3.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/share/learn_executor_py/hook/pythonpath.ps1'
+[3.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/share/learn_executor_py/hook/pythonpath.dsv'
+[3.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/share/learn_executor_py/hook/pythonpath.sh'
+[3.888s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/bin'
+[3.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_executor_py)
+[3.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/share/learn_executor_py/package.ps1'
+[3.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/share/learn_executor_py/package.dsv'
+[3.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/share/learn_executor_py/package.sh'
+[3.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/share/learn_executor_py/package.bash'
+[3.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/share/learn_executor_py/package.zsh'
+[3.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py/share/colcon-core/packages/learn_executor_py)
+[3.904s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_qos_cpp' with build type 'ament_cmake'
+[3.905s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_qos_cpp'
+[3.906s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.906s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp -- -j4 -l4
+[4.032s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py' for CMake module files
+[4.033s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py' for CMake config files
+[4.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_lifecyclenode_py' returned '0': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_lifecyclenode_py build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_lifecyclenode_py/install.log --install-scripts $base/lib/learn_lifecyclenode_py --single-version-externally-managed install_data
+[4.036s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib'
+[4.037s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/bin'
+[4.037s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib/pkgconfig/learn_lifecyclenode_py.pc'
+[4.038s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/lib/python3.10/site-packages'
+[4.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_lifecyclenode_py', 'pythonpath')
+[4.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/learn_lifecyclenode_py/hook/pythonpath.ps1'
+[4.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/learn_lifecyclenode_py/hook/pythonpath.dsv'
+[4.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/learn_lifecyclenode_py/hook/pythonpath.sh'
+[4.047s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/bin'
+[4.047s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_lifecyclenode_py)
+[4.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/learn_lifecyclenode_py/package.ps1'
+[4.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/learn_lifecyclenode_py/package.dsv'
+[4.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/learn_lifecyclenode_py/package.sh'
+[4.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/learn_lifecyclenode_py/package.bash'
+[4.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/learn_lifecyclenode_py/package.zsh'
+[4.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py/share/colcon-core/packages/learn_lifecyclenode_py)
+[4.066s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_qos_py' with build type 'ament_python'
+[4.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_qos_py', 'ament_prefix_path')
+[4.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/share/learn_qos_py/hook/ament_prefix_path.ps1'
+[4.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/share/learn_qos_py/hook/ament_prefix_path.dsv'
+[4.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/share/learn_qos_py/hook/ament_prefix_path.sh'
+[4.088s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.088s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.640s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_qos_py'
+[4.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.649s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_ext, update_catalog, install_headers, bdist, install_scripts, symlink_data, init_catalog, develop, saveopts, alias, compile_catalog, install_lib, sdist, install_egg_info, setopt, build_scripts, bdist_rpm, egg_info, bdist_egg, install, register, build, install_data, clean, build_clib, bdist_wheel, upload_docs, dist_info, check, build_py, easy_install, rotate, bdist_dumb, extract_messages, upload, test
+[4.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_message_filter_py': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_message_filter build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/install.log --install-scripts $base/lib/learn_message_filter --single-version-externally-managed install_data
+[4.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp -- -j4 -l4
+[4.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp
+[4.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_qos_cpp)
+[4.715s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp' for CMake module files
+[4.716s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp' for CMake config files
+[4.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_qos_cpp', 'cmake_prefix_path')
+[4.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/hook/cmake_prefix_path.ps1'
+[4.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_cpp
+[4.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/hook/cmake_prefix_path.dsv'
+[4.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/hook/cmake_prefix_path.sh'
+[4.733s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/lib'
+[4.736s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/bin'
+[4.738s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/lib/pkgconfig/learn_qos_cpp.pc'
+[4.738s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/lib/python3.10/site-packages'
+[4.741s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/bin'
+[4.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/package.ps1'
+[4.745s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/package.dsv'
+[4.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/package.sh'
+[4.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/package.bash'
+[4.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/package.zsh'
+[4.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/colcon-core/packages/learn_qos_cpp)
+[4.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_qos_cpp)
+[4.762s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp' for CMake module files
+[4.762s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp' for CMake config files
+[4.764s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_qos_cpp', 'cmake_prefix_path')
+[4.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/hook/cmake_prefix_path.ps1'
+[4.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/hook/cmake_prefix_path.dsv'
+[4.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/hook/cmake_prefix_path.sh'
+[4.774s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/lib'
+[4.775s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/bin'
+[4.775s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/lib/pkgconfig/learn_qos_cpp.pc'
+[4.777s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/lib/python3.10/site-packages'
+[4.778s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/bin'
+[4.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/package.ps1'
+[4.784s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/package.dsv'
+[4.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/package.sh'
+[4.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/package.bash'
+[4.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/learn_qos_cpp/package.zsh'
+[4.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_cpp/share/colcon-core/packages/learn_qos_cpp)
+[5.599s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter' for CMake module files
+[5.601s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_message_filter_py' returned '0': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_message_filter build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter/install.log --install-scripts $base/lib/learn_message_filter --single-version-externally-managed install_data
+[5.602s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter' for CMake config files
+[5.603s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib'
+[5.603s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/bin'
+[5.603s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/pkgconfig/learn_message_filter.pc'
+[5.603s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/lib/python3.10/site-packages'
+[5.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_message_filter', 'pythonpath')
+[5.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/share/learn_message_filter/hook/pythonpath.ps1'
+[5.608s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/share/learn_message_filter/hook/pythonpath.dsv'
+[5.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/share/learn_message_filter/hook/pythonpath.sh'
+[5.614s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/bin'
+[5.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_message_filter)
+[5.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/share/learn_message_filter/package.ps1'
+[5.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/share/learn_message_filter/package.dsv'
+[5.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/share/learn_message_filter/package.sh'
+[5.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/share/learn_message_filter/package.bash'
+[5.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/share/learn_message_filter/package.zsh'
+[5.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter/share/colcon-core/packages/learn_message_filter)
+[5.871s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: build_ext, update_catalog, install_headers, bdist, install_scripts, symlink_data, init_catalog, develop, saveopts, alias, compile_catalog, install_lib, sdist, install_egg_info, setopt, build_scripts, bdist_rpm, egg_info, bdist_egg, install, register, build, install_data, clean, build_clib, bdist_wheel, upload_docs, dist_info, check, build_py, easy_install, rotate, bdist_dumb, extract_messages, upload, test
+[5.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_qos_py': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_qos_py build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_py/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_py/install.log --install-scripts $base/lib/learn_qos_py --single-version-externally-managed install_data
+[6.534s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py' for CMake module files
+[6.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_qos_py' returned '0': PYTHONPATH=/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/learn_qos_py build --build-base /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_py/build install --record /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_qos_py/install.log --install-scripts $base/lib/learn_qos_py --single-version-externally-managed install_data
+[6.536s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py' for CMake config files
+[6.537s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/lib'
+[6.537s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/bin'
+[6.537s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/lib/pkgconfig/learn_qos_py.pc'
+[6.538s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/lib/python3.10/site-packages'
+[6.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_qos_py', 'pythonpath')
+[6.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/share/learn_qos_py/hook/pythonpath.ps1'
+[6.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/share/learn_qos_py/hook/pythonpath.dsv'
+[6.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/share/learn_qos_py/hook/pythonpath.sh'
+[6.543s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/bin'
+[6.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_qos_py)
+[6.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/share/learn_qos_py/package.ps1'
+[6.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/share/learn_qos_py/package.dsv'
+[6.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/share/learn_qos_py/package.sh'
+[6.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/share/learn_qos_py/package.bash'
+[6.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/share/learn_qos_py/package.zsh'
+[6.559s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py/share/colcon-core/packages/learn_qos_py)
+[6.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake /home/hzh/ros2_learn/chapt10/chapt10_ws/src/learn_message_filter_cpp -DCMAKE_INSTALL_PREFIX=/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp
+[7.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp -- -j4 -l4
+[31.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --build /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp -- -j4 -l4
+[31.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp
+[31.677s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_message_filter_cpp)
+[31.679s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp' for CMake module files
+[31.679s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp' for CMake config files
+[31.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_message_filter_cpp', 'cmake_prefix_path')
+[31.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/hook/cmake_prefix_path.ps1'
+[31.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_lifecyclenode_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_executor_py:/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_qos_py:/opt/ros/humble /usr/bin/cmake --install /home/hzh/ros2_learn/chapt10/chapt10_ws/build/learn_message_filter_cpp
+[31.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/hook/cmake_prefix_path.dsv'
+[31.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/hook/cmake_prefix_path.sh'
+[31.684s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/lib'
+[31.684s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/bin'
+[31.684s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/lib/pkgconfig/learn_message_filter_cpp.pc'
+[31.685s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/lib/python3.10/site-packages'
+[31.686s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/bin'
+[31.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/package.ps1'
+[31.688s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/package.dsv'
+[31.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/package.sh'
+[31.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/package.bash'
+[31.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/package.zsh'
+[31.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/colcon-core/packages/learn_message_filter_cpp)
+[31.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(learn_message_filter_cpp)
+[31.694s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp' for CMake module files
+[31.694s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp' for CMake config files
+[31.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('learn_message_filter_cpp', 'cmake_prefix_path')
+[31.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/hook/cmake_prefix_path.ps1'
+[31.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/hook/cmake_prefix_path.dsv'
+[31.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/hook/cmake_prefix_path.sh'
+[31.701s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/lib'
+[31.701s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/bin'
+[31.701s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/lib/pkgconfig/learn_message_filter_cpp.pc'
+[31.702s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/lib/python3.10/site-packages'
+[31.702s] Level 1:colcon.colcon_core.environment:checking '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/bin'
+[31.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/package.ps1'
+[31.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/package.dsv'
+[31.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/package.sh'
+[31.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/package.bash'
+[31.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/learn_message_filter_cpp/package.zsh'
+[31.709s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_message_filter_cpp/share/colcon-core/packages/learn_message_filter_cpp)
+[31.711s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[31.711s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[31.711s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[31.712s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[31.725s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[31.725s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[31.725s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.753s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.754s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/local_setup.ps1'
+[31.755s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/_local_setup_util_ps1.py'
+[31.757s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/setup.ps1'
+[31.761s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/local_setup.sh'
+[31.764s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/_local_setup_util_sh.py'
+[31.765s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/setup.sh'
+[31.767s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/local_setup.bash'
+[31.769s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/setup.bash'
+[31.771s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/local_setup.zsh'
+[31.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hzh/ros2_learn/chapt10/chapt10_ws/install/setup.zsh'

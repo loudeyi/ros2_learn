@@ -1,0 +1,22 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/intra_process_pubsub.dir/src/intra_process_pubsub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/intra_process_pubsub.dir/src/talker.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable intra_process_pubsub[0m
+[100%] Built target intra_process_pubsub
+-- Install configuration: ""
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib/learn_compose/intra_process_pubsub
+-- Set runtime path of "/home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/lib/learn_compose/intra_process_pubsub" to ""
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/ament_index/resource_index/package_run_dependencies/learn_compose
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/ament_index/resource_index/parent_prefix_path/learn_compose
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/environment/ament_prefix_path.sh
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/environment/ament_prefix_path.dsv
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/environment/path.sh
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/environment/path.dsv
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/local_setup.bash
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/local_setup.sh
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/local_setup.zsh
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/local_setup.dsv
+-- Up-to-date: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.dsv
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/ament_index/resource_index/packages/learn_compose
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/cmake/learn_composeConfig.cmake
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/cmake/learn_composeConfig-version.cmake
+-- Installing: /home/hzh/ros2_learn/chapt10/chapt10_ws/install/learn_compose/share/learn_compose/package.xml
